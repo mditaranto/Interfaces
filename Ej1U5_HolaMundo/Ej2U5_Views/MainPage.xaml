@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej2U5_Views.MainPage">
+    
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Slider
+                x:Name="palo"
+                BindingContext="{x:Reference barra}"
+                Minimum="0"
+                Maximum="1"
+                WidthRequest="200"
+                Value="{Binding value, Mode=OneWayToSource}"
+                />
+
+            <ProgressBar
+                x:Name="barra"
+                BindingContext="{x:Reference palo}"
+                Progress="{Binding Value}"
+                ProgressColor="red"
+            />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
