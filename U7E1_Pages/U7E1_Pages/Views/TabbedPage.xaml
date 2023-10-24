@@ -1,0 +1,11 @@
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:U7E1_Pages"
+            x:Class="U7E1_Pages.TabbedPageT"
+            Title="TabbedPageT">
+
+
+    <local:Page4></local:Page4>
+
+
+</TabbedPage>
