@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej1T8_Layouts.MainPage">
+
+    <StackLayout Padding="10" Orientation="Horizontal">
+
+        
+            <Button Text="Botón 1" BorderColor="Black" BorderWidth="1" Padding="5" Margin="0,0,10,0" />
+            <Button Text="Botón 1" BorderColor="Black" BorderWidth="1" Padding="5" Margin="0,0,10,0" />
+            <Button Text="Botón 1" BorderColor="Black" BorderWidth="1" Padding="5" Margin="0,0,10,0" />
+            <Label Text="Etiqueta" FontAttributes="Bold" Margin="0,0,10,0" />
+            <Entry Placeholder="Texto de entrada" BackgroundColor="#C0C0FF" />
+        
+
+    </StackLayout>
+
+</ContentPage>
