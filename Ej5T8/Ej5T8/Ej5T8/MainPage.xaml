@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej5T8.MainPage">
+
+    <Grid RowDefinitions="2*, 8*" RowSpacing="0">
+        <Grid Grid.Row="0" BackgroundColor="DarkGoldenrod">
+            <Label Text="Contactos"
+                   FontSize="Large"
+                   TextColor="Wheat"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"></Label>
+            
+        </Grid>
+        <Grid Grid.Row="1" BackgroundColor="BurlyWood">
+            <ScrollView>
+                <ListView x:Name="ListaContactosView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <HorizontalStackLayout Margin="20">
+                                    <Label Text="{Binding Nombre}"
+                                           Margin="0,0,5,0"/>
+
+                                    <Label Text="{Binding Apellido}" />
+                                </HorizontalStackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+
+        </Grid>
+
+        <StackLayout Grid.Row="1"
+                     Orientation="Horizontal"
+                     HorizontalOptions="End" 
+                     VerticalOptions="EndAndExpand">
+            
+            <Frame CornerRadius="30"
+                   Padding="15"
+                   Margin="5,5,15,40">
+
+                <Image Source="bin.png"
+                       Aspect="Fill"
+                       Margin="-20"
+                       HeightRequest="75"
+                       WidthRequest="75" />
+            </Frame>
+
+            <Frame CornerRadius="30"
+                   Padding="15"
+                   Margin="5,5,15,40" >
+
+                <Image Source="lapiz.png"
+                       Aspect="Fill"
+                       Margin="-20"
+                       HeightRequest="75"
+                       WidthRequest="75" />
+            </Frame>
+            
+            <Frame CornerRadius="30"
+                   Padding="15"
+                   Margin="5,5,15,40" >
+
+                <Image Source="plus_120249.png"
+                       Aspect="Fill"
+                       Margin="-20"
+                       HeightRequest="75"
+                       WidthRequest="75" /> 
+            </Frame>
+
+        </StackLayout>
+
+    </Grid>
+    
+
+</ContentPage>
+    

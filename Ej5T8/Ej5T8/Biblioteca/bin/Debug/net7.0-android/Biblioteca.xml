@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Biblioteca</name>
+    </assembly>
+    <members>
+        <member name="M:Biblioteca.ListaPersonas.GetListadoCompletoPersonas">
+            <summary>
+            Funcion que devuelve una lista de personas
+            Pre: 
+            Post: 
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
