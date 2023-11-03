@@ -1,0 +1,2 @@
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema8\EjerciciosU8\Biblioteca\Biblioteca.csproj;neutral
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema8\EjerciciosU8\ContactosU8\ContactosU8.csproj;x64
