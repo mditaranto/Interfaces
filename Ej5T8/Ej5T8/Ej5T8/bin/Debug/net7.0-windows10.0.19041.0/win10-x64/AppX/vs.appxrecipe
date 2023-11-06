@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej5T8\Ej5T8\Ej5T8\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-03T10:10:07.078</Modified>
+      <Modified>2023-11-06T07:56:07.767</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej5T8\Ej5T8\Ej5T8\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej5T8.dll">
       <PackagePath>Ej5T8.dll</PackagePath>
-      <Modified>2023-11-03T10:10:06.031</Modified>
+      <Modified>2023-11-06T07:56:05.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej5T8\Ej5T8\Biblioteca\bin\Debug\net7.0-windows10.0.19041.0\Biblioteca.dll">
       <PackagePath>Biblioteca.dll</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej5T8\Ej5T8\Ej5T8\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ej5T8.exe</PackagePath>
-      <Modified>2023-11-03T10:10:06.036</Modified>
+      <Modified>2023-11-06T07:56:05.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej5T8\Ej5T8\Ej5T8\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej5T8.deps.json">
       <PackagePath>Ej5T8.deps.json</PackagePath>

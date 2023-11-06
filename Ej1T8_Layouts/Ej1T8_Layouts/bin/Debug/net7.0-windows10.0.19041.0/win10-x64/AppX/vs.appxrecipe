@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T11:10:47.286</Modified>
+      <Modified>2023-11-06T11:18:41.164</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-02T08:14:40.611</Modified>
+      <Modified>2023-11-06T11:17:15.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej1T8_Layouts.runtimeconfig.json">
       <PackagePath>Ej1T8_Layouts.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-02T08:00:04.124</Modified>
+      <Modified>2023-11-06T09:37:29.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej1T8_Layouts.dll">
       <PackagePath>Ej1T8_Layouts.dll</PackagePath>
-      <Modified>2023-11-02T11:10:46.330</Modified>
+      <Modified>2023-11-06T11:18:40.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ej1T8_Layouts.exe</PackagePath>
-      <Modified>2023-11-02T11:10:46.335</Modified>
+      <Modified>2023-11-06T11:18:40.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej1T8_Layouts.deps.json">
       <PackagePath>Ej1T8_Layouts.deps.json</PackagePath>
-      <Modified>2023-11-02T08:14:40.442</Modified>
+      <Modified>2023-11-06T09:37:29.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -809,6 +809,14 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-06-09T20:10:26.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mditaranto\.nuget\packages\communitytoolkit.maui\6.1.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2023-11-03T08:17:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mditaranto\.nuget\packages\communitytoolkit.maui.core\6.1.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2023-11-03T08:17:42.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-10-18T16:15:22.000</Modified>
@@ -913,6 +921,10 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mditaranto\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2022-10-18T16:18:24.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2023-05-31T20:12:36.000</Modified>
@@ -967,207 +979,219 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-11-02T07:58:22.586</Modified>
+      <Modified>2023-11-06T08:30:11.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.788</Modified>
+      <Modified>2023-11-06T08:30:11.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.798</Modified>
+      <Modified>2023-11-06T08:30:11.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.808</Modified>
+      <Modified>2023-11-06T08:30:11.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.823</Modified>
+      <Modified>2023-11-06T08:30:11.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.882</Modified>
+      <Modified>2023-11-06T08:30:11.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.640</Modified>
+      <Modified>2023-11-06T08:30:11.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.642</Modified>
+      <Modified>2023-11-06T08:30:11.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.653</Modified>
+      <Modified>2023-11-06T08:30:11.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.644</Modified>
+      <Modified>2023-11-06T08:30:11.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.647</Modified>
+      <Modified>2023-11-06T08:30:11.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.625</Modified>
+      <Modified>2023-11-06T08:30:11.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.627</Modified>
+      <Modified>2023-11-06T08:30:11.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.638</Modified>
+      <Modified>2023-11-06T08:30:11.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.629</Modified>
+      <Modified>2023-11-06T08:30:11.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.632</Modified>
+      <Modified>2023-11-06T08:30:11.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.597</Modified>
+      <Modified>2023-11-06T08:30:11.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.599</Modified>
+      <Modified>2023-11-06T08:30:11.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.602</Modified>
+      <Modified>2023-11-06T08:30:11.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.605</Modified>
+      <Modified>2023-11-06T08:30:11.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.609</Modified>
+      <Modified>2023-11-06T08:30:11.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.611</Modified>
+      <Modified>2023-11-06T08:30:11.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.613</Modified>
+      <Modified>2023-11-06T08:30:11.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.622</Modified>
+      <Modified>2023-11-06T08:30:11.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.615</Modified>
+      <Modified>2023-11-06T08:30:11.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.617</Modified>
+      <Modified>2023-11-06T08:30:11.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.691</Modified>
+      <Modified>2023-11-06T08:30:11.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.695</Modified>
+      <Modified>2023-11-06T08:30:11.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.701</Modified>
+      <Modified>2023-11-06T08:30:11.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.708</Modified>
+      <Modified>2023-11-06T08:30:11.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.722</Modified>
+      <Modified>2023-11-06T08:30:11.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.671</Modified>
+      <Modified>2023-11-06T08:30:11.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.674</Modified>
+      <Modified>2023-11-06T08:30:11.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.677</Modified>
+      <Modified>2023-11-06T08:30:11.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.681</Modified>
+      <Modified>2023-11-06T08:30:11.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.688</Modified>
+      <Modified>2023-11-06T08:30:11.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.656</Modified>
+      <Modified>2023-11-06T08:30:11.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.658</Modified>
+      <Modified>2023-11-06T08:30:11.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.661</Modified>
+      <Modified>2023-11-06T08:30:11.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.664</Modified>
+      <Modified>2023-11-06T08:30:11.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.669</Modified>
+      <Modified>2023-11-06T08:30:11.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.727</Modified>
+      <Modified>2023-11-06T08:30:11.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.733</Modified>
+      <Modified>2023-11-06T08:30:11.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.740</Modified>
+      <Modified>2023-11-06T08:30:11.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.751</Modified>
+      <Modified>2023-11-06T08:30:11.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.780</Modified>
+      <Modified>2023-11-06T08:30:11.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bin.scale-100.png">
+      <PackagePath>bin.scale-100.png</PackagePath>
+      <Modified>2023-11-03T09:34:01.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.627</Modified>
+      <Modified>2023-11-06T08:30:11.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.635</Modified>
+      <Modified>2023-11-06T08:30:11.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.647</Modified>
+      <Modified>2023-11-06T08:30:11.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.664</Modified>
+      <Modified>2023-11-06T08:30:11.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-11-02T07:58:22.705</Modified>
+      <Modified>2023-11-06T08:30:11.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\guardar.scale-100.png">
+      <PackagePath>guardar.scale-100.png</PackagePath>
+      <Modified>2023-11-06T08:29:26.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus_120249.scale-100.png">
+      <PackagePath>plus_120249.scale-100.png</PackagePath>
+      <Modified>2023-11-03T09:33:20.094</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

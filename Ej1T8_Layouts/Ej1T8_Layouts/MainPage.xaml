@@ -3,16 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ej1T8_Layouts.MainPage">
 
-    <StackLayout Padding="10" Orientation="Horizontal">
 
-        
-            <Button Text="Botón 1" BorderColor="Black" BorderWidth="1" Padding="5" Margin="0,0,10,0" />
-            <Button Text="Botón 1" BorderColor="Black" BorderWidth="1" Padding="5" Margin="0,0,10,0" />
-            <Button Text="Botón 1" BorderColor="Black" BorderWidth="1" Padding="5" Margin="0,0,10,0" />
-            <Label Text="Etiqueta" FontAttributes="Bold" Margin="0,0,10,0" />
-            <Entry Placeholder="Texto de entrada" BackgroundColor="#C0C0FF" />
-        
+    <Grid RowDefinitions="2*, 8*" RowSpacing="0">
+        <Grid Grid.Row="0" BackgroundColor="DarkGoldenrod">
+            <Label Text="Contactos"
+               FontSize="Large"
+               TextColor="Wheat"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"></Label>
 
-    </StackLayout>
+        </Grid>
+        <Grid Grid.Row="1" BackgroundColor="BurlyWood">
+            <StackLayout Padding="10" Orientation="Vertical" x:Name="verticallayout">
+
+                <Label Text="Nombre" FontAttributes="Bold" Margin="0,0,10,0" HorizontalOptions="Center"/>
+                <Entry Placeholder="Texto de entrada" BackgroundColor="#C0C0FF" WidthRequest="300" x:Name="nombre" />
+                <Label x:Name="nombreerror" TextColor="Red" HorizontalOptions="Center"/>
+
+                <Label Text="Apellidos" FontAttributes="Bold" Margin="0,0,10,0" HorizontalOptions="Center"/>
+                <Entry Placeholder="Texto de entrada" BackgroundColor="#C0C0FF" WidthRequest="300" x:Name="apellidos"/>
+                <Label x:Name="apellidoserror" TextColor="Red" HorizontalOptions="Center"/>
+                
+                <Label Text="Fecha de nacimiento" FontAttributes="Bold" Margin="0,0,10,0" HorizontalOptions="Center"/>
+                <DatePicker BackgroundColor="#C0C0FF" WidthRequest="200" x:Name="fecha"/>
+                <Label x:Name="Realizado" TextColor="LightGreen" HorizontalOptions="Center"/>
+
+            </StackLayout>
+        </Grid>
+
+        <StackLayout Grid.Row="1"
+                 Orientation="Horizontal"
+                 HorizontalOptions="End" 
+                 VerticalOptions="EndAndExpand">
+
+            <Frame CornerRadius="30"
+               Padding="15"
+               Margin="5,5,15,40">
+                <Button Clicked="clickBorrar"
+                   ImageSource="bin.png"/>
+
+            </Frame>
+
+            <Frame CornerRadius="30"
+               Padding="15"
+               Margin="5,5,15,40" >
+                <Button Clicked="clickGuardar"
+                   ImageSource="guardar.png"/>
+            </Frame>
+
+            <Frame CornerRadius="30"
+               Padding="15"
+               Margin="5,5,15,40" >
+
+                <Button Clicked="clickAñadir"
+                        ImageSource="plus_120249.png"/>
+
+            </Frame>
+
+        </StackLayout>
+
+    </Grid>
 
 </ContentPage>

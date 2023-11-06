@@ -322,3 +322,9 @@ C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Deb
 C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bin.scale-100.png
+C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\guardar.scale-100.png
+C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus_120249.scale-100.png
+C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+C:\Users\mditaranto\Desktop\Curso\Interfaces\Ej1T8_Layouts\Ej1T8_Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Speech.dll
