@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlacasSolares.Views.ListaCitas">
+
+    <Grid RowDefinitions="2*, 8*" RowSpacing="0">
+        <Grid Grid.Row="0" BackgroundColor="Wheat">
+            <Label Text="Citas"
+                   FontSize="Header"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"></Label>
+
+        </Grid>
+        <Grid Grid.Row="1" BackgroundColor="Cornsilk">
+            <ScrollView>
+                <ListView x:Name="ListaCitasView" ItemSelected="irACitas">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                              
+                                <HorizontalStackLayout Margin="20">
+                                    <Label Text="{Binding Cliente}"
+                                           Margin="0,0,20,0"/>
+
+                                    <Label Text="{Binding Direccion}" 
+                                           HorizontalTextAlignment="Center"/>
+
+                                </HorizontalStackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+
+        </Grid>
+    </Grid>
+</ContentPage>
