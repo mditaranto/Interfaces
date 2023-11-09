@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema8\PlacasSolares\PlacasSolares\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-07T13:37:55.090</Modified>
+      <Modified>2023-11-09T09:02:56.693</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema8\PlacasSolares\PlacasSolares\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-07T13:37:54.760</Modified>
+      <Modified>2023-11-09T09:02:56.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema8\PlacasSolares\PlacasSolares\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PlacasSolares.runtimeconfig.json">
       <PackagePath>PlacasSolares.runtimeconfig.json</PackagePath>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema8\PlacasSolares\PlacasSolares\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PlacasSolares.dll">
       <PackagePath>PlacasSolares.dll</PackagePath>
-      <Modified>2023-11-07T13:37:53.888</Modified>
+      <Modified>2023-11-09T09:02:55.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema8\PlacasSolares\Biblioteca\bin\Debug\net7.0-windows10.0.19041.0\Biblioteca.dll">
       <PackagePath>Biblioteca.dll</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema8\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PlacasSolares.exe</PackagePath>
-      <Modified>2023-11-07T13:37:53.907</Modified>
+      <Modified>2023-11-09T09:02:55.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema8\PlacasSolares\PlacasSolares\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PlacasSolares.deps.json">
       <PackagePath>PlacasSolares.deps.json</PackagePath>

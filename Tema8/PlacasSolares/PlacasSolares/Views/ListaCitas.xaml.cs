@@ -1,5 +1,6 @@
 using Biblioteca;
 using System.Collections.ObjectModel;
+
 namespace PlacasSolares.Views;
 
 public partial class ListaCitas : ContentPage
@@ -14,8 +15,9 @@ public partial class ListaCitas : ContentPage
         ListaCitasView.ItemsSource = listaCitas;
     }
 
-    private void irACitas(object sender, SelectedItemChangedEventArgs e)
+    private async void irACitas(object sender, SelectedItemChangedEventArgs e)
     {
-
+        Citas cita = e.SelectedItem as Citas;
+        await Navigation.PushAsync(new CitasVista(cita));
     }
 }

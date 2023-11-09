@@ -4,6 +4,18 @@
              x:Class="PlacasSolares.MainPage">
     <AbsoluteLayout>
         <Image Source="placas_solares.jpg" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+
+        <ContentView BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0.5,0.5,0.3,0.3" AbsoluteLayout.LayoutFlags="All">
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Frame BorderColor="Gray" CornerRadius="10" HasShadow="False" BackgroundColor="White">
+                    <StackLayout>
+                        <Entry Placeholder="Nombre de usuario" HorizontalOptions="FillAndExpand" />
+                        <Entry Placeholder="Contraseña" IsPassword="True" HorizontalOptions="FillAndExpand" />
+                        <Button Text="Iniciar sesión" Clicked="LogInAsync" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ContentView>
         <!--<VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <Label Text="Usuario:"

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenDI.MainPage">
+
+            <AbsoluteLayout AbsoluteLayout.LayoutFlags="All" BackgroundColor="DarkGoldenrod">
+                
+                <Label Text="Encuentra las diferencias" AbsoluteLayout.LayoutBounds="0.65,0.2,0.5,0.5" AbsoluteLayout.LayoutFlags="All" FontSize="Header"/>
+
+                 <Image Source="imagen1.jpg" AbsoluteLayout.LayoutBounds="0.2,0.5,0.5,0.5" AbsoluteLayout.LayoutFlags="All">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Foto1tap"
+                          NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                
+                 <Frame BackgroundColor="Transparent" x:Name="pista1" BorderColor="Red"
+                    AbsoluteLayout.LayoutBounds="0.24, 0.45, 0.05, 0.1" AbsoluteLayout.LayoutFlags="All" CornerRadius="90" Opacity="0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="1"/>
+                        </Frame.GestureRecognizers>
+                </Frame>
+                
+                <Frame BackgroundColor="Transparent" x:Name="pista2" BorderColor="Red"
+                    AbsoluteLayout.LayoutBounds="0.40, 0.45, 0.05, 0.1" AbsoluteLayout.LayoutFlags="All" CornerRadius="90" Opacity="0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"
+                                                      NumberOfTapsRequired="1"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                
+                <Frame BackgroundColor="Transparent" x:Name="pista3" BorderColor="red"
+                     AbsoluteLayout.LayoutBounds="0.32, 0.7, 0.05, 0.1" AbsoluteLayout.LayoutFlags="All" CornerRadius="90" Opacity="0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"
+                                                      NumberOfTapsRequired="1"/>
+                    </Frame.GestureRecognizers>
+                  </Frame>
+
+
+                 <Image Source="imagen2.jpg" AbsoluteLayout.LayoutBounds="0.8,0.5,0.5,0.5" AbsoluteLayout.LayoutFlags="All">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Foto1tap"
+                                      NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                
+                 <Frame BackgroundColor="Transparent" x:Name="pista21" BorderColor="Red"
+                    AbsoluteLayout.LayoutBounds="0.56, 0.45, 0.05, 0.1" AbsoluteLayout.LayoutFlags="All" CornerRadius="90" Opacity="0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"
+                                                          NumberOfTapsRequired="1"/>
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                 <Frame BackgroundColor="Transparent" x:Name="pista22" BorderColor="Red"
+                    AbsoluteLayout.LayoutBounds="0.72, 0.45, 0.05, 0.1" AbsoluteLayout.LayoutFlags="All" CornerRadius="90" Opacity="0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"
+                                                      NumberOfTapsRequired="1"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                 <Frame BackgroundColor="Transparent" x:Name="pista23" BorderColor="Red"
+                     AbsoluteLayout.LayoutBounds="0.63, 0.7, 0.05, 0.1" AbsoluteLayout.LayoutFlags="All" CornerRadius="90" Opacity="0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"
+                                                      NumberOfTapsRequired="1"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+        <Label x:Name="ErroresCont" IsVisible="True" TextColor="Red" FontSize="Medium" AbsoluteLayout.LayoutBounds="1,1.6,0.5,0.5" AbsoluteLayout.LayoutFlags="All"/>
+
+
+
+    </AbsoluteLayout>
+
+
+
+</ContentPage>
