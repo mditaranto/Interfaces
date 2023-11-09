@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenDI.FinPartida"
+             Title="FinPartida">
+    <AbsoluteLayout AbsoluteLayout.LayoutFlags="All"
+                    BackgroundColor="LightBlue">
+        
+        <!--Queria ponerlo mas bonito con un frame-->
+        <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.8,0.5,0.5" AbsoluteLayout.LayoutFlags="All">
+            <Label 
+             x:Name="textoFin"
+             Text=""
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+
+            <Button
+             Clicked="Button_Clicked"
+             VerticalOptions="Center"
+             HorizontalOptions="Center" 
+             Text="Volver a jugar"/>
+
+        </StackLayout>
+
+    </AbsoluteLayout>
+    
+
+</ContentPage>
