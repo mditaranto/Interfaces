@@ -21,10 +21,12 @@
                               
                                 <HorizontalStackLayout Margin="20">
                                     <Label Text="{Binding Cliente}"
-                                           Margin="0,0,20,0"/>
+                                           Margin="0,0,20,0"
+                                           TextColor="Black"/>
 
                                     <Label Text="{Binding Direccion}" 
-                                           HorizontalTextAlignment="Center"/>
+                                           HorizontalTextAlignment="Center"
+                                           TextColor="Black"/>
 
                                 </HorizontalStackLayout>
                             </ViewCell>

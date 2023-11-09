@@ -10,7 +10,7 @@ namespace PlacasSolares
             InitializeComponent();
         }
 
-        private async void LogInAsync(object sender, EventArgs e)
+        private async void OnLoginClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ListaCitas());
         }

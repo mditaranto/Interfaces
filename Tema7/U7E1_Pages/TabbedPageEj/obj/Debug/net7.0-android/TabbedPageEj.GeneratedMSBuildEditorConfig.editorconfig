@@ -12,69 +12,69 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = TabbedPageEj
-build_property.ProjectDir = C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema7\U7E1_Pages\TabbedPageEj\
+build_property.ProjectDir = D:\DAM\Interfaces\Tema7\U7E1_Pages\TabbedPageEj\
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/App.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/AppShell.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/MainPage.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Resources/Styles/Colors.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Resources/Styles/Styles.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page1.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.Views.Page1.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Page1.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Page1.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page2.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page2.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.Views.Page2.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Page2.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Page2.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page3.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page3.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.Views.Page3.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Page3.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Page3.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page4.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page4.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.Views.Page4.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Page4.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Page4.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page5.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/Page5.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.Views.Page5.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Page5.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Page5.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/TabbedPageDemo.xaml]
+[D:/DAM/Interfaces/Tema7/U7E1_Pages/TabbedPageEj/Views/TabbedPageDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TabbedPageEj.Views.TabbedPageDemo.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TabbedPageDemo.xaml

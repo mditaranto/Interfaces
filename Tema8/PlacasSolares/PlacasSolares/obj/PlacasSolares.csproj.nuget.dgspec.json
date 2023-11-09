@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj": {}
+    "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+    "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\mditaranto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\obj\\",
+        "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+        "outputPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mditaranto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,16 +84,10 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             }
           },
@@ -122,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         },
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
@@ -145,16 +139,10 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             },
             "Xamarin.Android.Glide": {
@@ -252,7 +240,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -275,16 +263,10 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             }
           },
@@ -316,7 +298,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -339,16 +321,10 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             }
           },
@@ -381,7 +357,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -404,22 +380,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             },
             "Microsoft.WindowsAppSDK": {
@@ -463,25 +433,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj": {
+    "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj",
+        "projectUniqueName": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj",
         "projectName": "PlacasSolares",
-        "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj",
-        "packagesPath": "C:\\Users\\mditaranto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\obj\\",
+        "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj",
+        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+        "outputPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mditaranto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -500,32 +470,32 @@
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
-              "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
+              "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
-              "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
+              "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
-              "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
+              "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
+              "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
               }
             }
           }
@@ -555,18 +525,13 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             },
             "Xamarin.Android.Glide": {
@@ -653,7 +618,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -673,18 +638,13 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             }
           },
@@ -716,7 +676,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -736,18 +696,13 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             }
           },
@@ -780,7 +735,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -800,23 +755,18 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
               "target": "Package",
-              "version": "[7.0.92, )",
+              "version": "[7.0.96, )",
               "autoReferenced": true
             },
             "Microsoft.WindowsAppSDK": {
@@ -839,11 +789,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.11, 7.0.11]"
+              "version": "[7.0.13, 7.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.11, 7.0.11]"
+              "version": "[7.0.13, 7.0.13]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -851,7 +801,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.11, 7.0.11]"
+              "version": "[7.0.13, 7.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -871,7 +821,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

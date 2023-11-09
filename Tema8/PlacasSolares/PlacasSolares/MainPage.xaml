@@ -3,33 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PlacasSolares.MainPage">
     <AbsoluteLayout>
-        <Image Source="placas_solares.jpg" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
-        <!--<VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="Usuario:"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center"
-                       />
-            <Entry x:Name="usuario"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center"/>
-        </HorizontalStackLayout>
+        <Image Source="placas_solares2.jpg" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
 
-        <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="Contraseña:"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"
-/>
-            <Entry x:Name="contraseña"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"/>
+        <ContentView AbsoluteLayout.LayoutBounds="0.5,0.5,0.333,0.666" AbsoluteLayout.LayoutFlags="All" >
 
-        </HorizontalStackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Frame BorderColor="Gray" CornerRadius="10" HasShadow="False" BackgroundColor="White">
+                    <StackLayout>
+                        <Entry Placeholder="Nombre de usuario" HorizontalOptions="FillAndExpand" />
+                        <Entry Placeholder="Contraseña" IsPassword="True" HorizontalOptions="FillAndExpand" />
+                        <Button Text="Iniciar sesión" Clicked="OnLoginClicked" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
 
-        <Button VerticalOptions="Center" HorizontalOptions="Center" 
-                Text="Acceder" 
-                Clicked="LogInAsync"/>
-    </VerticalStackLayout>-->
+        </ContentView>
+
+        
     </AbsoluteLayout>
 
 </ContentPage>
