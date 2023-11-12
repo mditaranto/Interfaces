@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj": {}
+    "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj": {}
   },
   "projects": {
-    "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+    "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
-        "outputPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\obj\\",
+        "projectPath": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\VisualStudio\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -437,21 +437,21 @@
         }
       }
     },
-    "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj": {
+    "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj",
+        "projectUniqueName": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj",
         "projectName": "PlacasSolares",
-        "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj",
-        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
-        "outputPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\obj\\",
+        "projectPath": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\PlacasSolares.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\PlacasSolares\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\VisualStudio\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -470,32 +470,32 @@
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
-              "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
+              "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
-              "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
+              "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
-              "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
+              "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
               }
             }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "D:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
+              "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "E:\\DAM\\Interfaces\\Tema8\\PlacasSolares\\Biblioteca\\Biblioteca.csproj"
               }
             }
           }

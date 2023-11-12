@@ -22,3 +22,15 @@ D:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.dll
 D:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\refint\Biblioteca.dll
 D:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.pdb
 D:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\ref\Biblioteca.dll
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\bin\Debug\net7.0\Biblioteca.deps.json
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\bin\Debug\net7.0\Biblioteca.dll
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\bin\Debug\net7.0\Biblioteca.pdb
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.csproj.AssemblyReference.cache
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.AssemblyInfoInputs.cache
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.AssemblyInfo.cs
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.csproj.CoreCompileInputs.cache
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.dll
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\refint\Biblioteca.dll
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\Biblioteca.pdb
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\obj\Debug\net7.0\ref\Biblioteca.dll

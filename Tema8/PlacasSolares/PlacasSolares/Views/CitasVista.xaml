@@ -24,7 +24,7 @@
             <Label x:Name="Telf"
             FontSize="Large"
             TextColor="Black"
-            HorizontalTextAlignment="End"
+            HorizontalTextAlignment="Start"
             VerticalTextAlignment="Center" />
         </StackLayout>
 
@@ -33,18 +33,23 @@
             <Image Source="casa.jpg"
                HeightRequest="300"
                WidthRequest="300"
-               VerticalOptions="Start"
-               HorizontalOptions="Start"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
                Margin="40,0,0,0" />
+            <Label Text="Valida: " 
+                   VerticalOptions="End"
+                   HorizontalOptions="Center"
+                   TextColor="Black"/>
+
             <Switch IsToggled="False"
-                Toggled="Switch_Toggled"
                 Margin="40,0,0,0"
                 VerticalOptions="End"
                 HeightRequest="100"
                 WidthRequest="100" />
             <Entry WidthRequest="400"
                HeightRequest="400"
-               BackgroundColor="AntiqueWhite" />
+               BackgroundColor="AntiqueWhite" 
+                   TextColor="Black"/>
         </StackLayout>
     </Grid>
 </ContentPage>

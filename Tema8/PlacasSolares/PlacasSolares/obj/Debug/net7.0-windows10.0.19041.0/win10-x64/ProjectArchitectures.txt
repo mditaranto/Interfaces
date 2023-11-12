@@ -1,2 +1,2 @@
-D:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\Biblioteca.csproj;neutral
-D:\DAM\Interfaces\Tema8\PlacasSolares\PlacasSolares\PlacasSolares.csproj;x64
+E:\DAM\Interfaces\Tema8\PlacasSolares\Biblioteca\Biblioteca.csproj;neutral
+E:\DAM\Interfaces\Tema8\PlacasSolares\PlacasSolares\PlacasSolares.csproj;x64

@@ -12,39 +12,39 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = ExamenDI
-build_property.ProjectDir = C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema8\ExamenDI\ExamenDI\
+build_property.ProjectDir = E:\DAM\Interfaces\Tema8\ExamenDI\ExamenDI\
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema8/ExamenDI/ExamenDI/App.xaml]
+[E:/DAM/Interfaces/Tema8/ExamenDI/ExamenDI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenDI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema8/ExamenDI/ExamenDI/AppShell.xaml]
+[E:/DAM/Interfaces/Tema8/ExamenDI/ExamenDI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenDI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema8/ExamenDI/ExamenDI/FinPartida.xaml]
+[E:/DAM/Interfaces/Tema8/ExamenDI/ExamenDI/FinPartida.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenDI.FinPartida.xaml
 build_metadata.AdditionalFiles.TargetPath = FinPartida.xaml
 build_metadata.AdditionalFiles.RelativePath = FinPartida.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema8/ExamenDI/ExamenDI/MainPage.xaml]
+[E:/DAM/Interfaces/Tema8/ExamenDI/ExamenDI/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenDI.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema8/ExamenDI/ExamenDI/Resources/Styles/Colors.xaml]
+[E:/DAM/Interfaces/Tema8/ExamenDI/ExamenDI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenDI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema8/ExamenDI/ExamenDI/Resources/Styles/Styles.xaml]
+[E:/DAM/Interfaces/Tema8/ExamenDI/ExamenDI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenDI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

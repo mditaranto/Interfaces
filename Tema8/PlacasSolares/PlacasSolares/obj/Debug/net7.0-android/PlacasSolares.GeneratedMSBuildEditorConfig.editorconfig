@@ -12,45 +12,45 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = PlacasSolares
-build_property.ProjectDir = D:\DAM\Interfaces\Tema8\PlacasSolares\PlacasSolares\
+build_property.ProjectDir = E:\DAM\Interfaces\Tema8\PlacasSolares\PlacasSolares\
 
-[D:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/App.xaml]
+[E:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/AppShell.xaml]
+[E:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/MainPage.xaml]
+[E:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/Resources/Styles/Colors.xaml]
+[E:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/Resources/Styles/Styles.xaml]
+[E:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/Views/CitasVista.xaml]
+[E:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/Views/CitasVista.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.CitasVista.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CitasVista.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CitasVista.xaml
 
-[D:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/Views/ListaCitas.xaml]
+[E:/DAM/Interfaces/Tema8/PlacasSolares/PlacasSolares/Views/ListaCitas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.ListaCitas.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListaCitas.xaml
