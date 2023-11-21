@@ -10,7 +10,7 @@ namespace Ejercicio3
         {
             InitializeComponent();
 
-            BindingContext = PersonaVM;
+            BindingContext = new PersonaVM();
         }
 
        

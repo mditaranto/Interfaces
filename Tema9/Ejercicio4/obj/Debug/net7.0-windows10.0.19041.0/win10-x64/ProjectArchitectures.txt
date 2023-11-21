@@ -1,0 +1,2 @@
+C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema9\Clases\Clases.csproj;neutral
+C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema9\Ejercicio4\Ejercicio4.csproj;x64

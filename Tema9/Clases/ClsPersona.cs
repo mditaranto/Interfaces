@@ -23,7 +23,7 @@ namespace Clases
                 apellido = "Ditaranto";
             }
 
-            public ClsPersona(string nombre, string apellido, int idDepartamento, int id)
+            public ClsPersona(string nombre, string apellido, int id)
             {
                 this.id = id;
                 this.nombre = nombre;
