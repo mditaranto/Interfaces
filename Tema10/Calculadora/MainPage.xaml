@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora.MainPage">
+
+    <Grid
+        Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="2*" />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!--#region ROW1-->
+        <Label
+            x:Name="labelOperation"
+            Margin="20,130,30,20"
+            Grid.Row="0"
+            Grid.ColumnSpan="4"
+            Text=""
+            FontSize="20"
+            TextColor="WhiteSmoke"
+            HorizontalTextAlignment="End"
+            VerticalTextAlignment="Start" />
+        <Entry
+            x:Name="labelResult"
+            Margin="20"
+            Grid.Row="0"
+            Grid.ColumnSpan="4"
+            Text="0"
+            IsEnabled="False"
+            FontSize="70"
+            MaxLength="27"
+            TextColor="White"
+            HorizontalTextAlignment="End"
+            VerticalTextAlignment="End">
+            <Entry.GestureRecognizers>
+                <SwipeGestureRecognizer
+                    Direction="Right"
+                    Swiped="OnSwipeRight" />
+            </Entry.GestureRecognizers>
+        </Entry>
+
+        <!--#endregion-->
+
+        <!--#region ROW2-->
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="10"
+            FontSize="40"
+            CornerRadius="60"
+            TextColor="Black"
+            BackgroundColor="LightGray"
+            Text="AC"
+            Clicked="operationEvent" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="10"
+            FontSize="40"
+            CornerRadius="60"
+            TextColor="Black"
+            BackgroundColor="LightGray"
+            Text="±" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            Margin="10"
+            FontSize="40"
+            CornerRadius="60"
+            TextColor="Black"
+            BackgroundColor="LightGray"
+            Text="%" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="3"
+            Margin="10"
+            FontSize="80"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="Orange"
+            Text="÷"
+            Clicked="operationEvent" />
+        <!--#endregion-->
+
+        <!--#region ROW3-->
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="7"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="8"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="2"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="9"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="3"
+            Margin="10"
+            FontSize="80"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="Orange"
+            Text="×"
+            Clicked="operationEvent" />
+        <!--#endregion-->
+
+        <!--#region ROW4-->
+        <Button
+            Grid.Row="3"
+            Grid.Column="0"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="4"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="1"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="5"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="6"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="3"
+            Margin="10"
+            FontSize="80"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="Orange"
+            Text="−"
+            Command="" />
+        <!--#endregion-->
+
+        <!--#region ROW5-->
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="1"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="1"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="2"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="2"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="3"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="3"
+            Margin="10"
+            FontSize="80"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="Orange"
+            Text="+"
+            Clicked="operationEvent" />
+        <!--#endregion-->
+
+        <!--#region ROW6-->
+        <Button
+            Grid.Row="5"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="0"
+            Clicked="numberEvent" />
+        <Button
+            Grid.Row="5"
+            Grid.Column="2"
+            Margin="10"
+            FontSize="70"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="DimGray"
+            Text="." />
+        <Button
+            Grid.Row="5"
+            Grid.Column="3"
+            Margin="10"
+            FontSize="80"
+            CornerRadius="60"
+            TextColor="White"
+            BackgroundColor="Orange"
+            Text="="
+            Clicked="" />
+    </Grid>
+
+</ContentPage>

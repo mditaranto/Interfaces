@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Ej1\\Ej1.csproj": {}
+    "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Ej1\\Ej1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Ej1\\Ej1.csproj": {
+    "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Ej1\\Ej1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Ej1\\Ej1.csproj",
+        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Ej1\\Ej1.csproj",
         "projectName": "Ej1",
-        "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Ej1\\Ej1.csproj",
+        "projectPath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Ej1\\Ej1.csproj",
         "packagesPath": "C:\\Users\\mditaranto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Ej1\\obj\\",
+        "outputPath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Ej1\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
