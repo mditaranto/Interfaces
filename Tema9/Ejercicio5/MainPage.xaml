@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio5.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+           <ListView x:Name="ListaCitasView" 
+                     ItemSelected="{Binding}"
+                     ItemsSource="{Binding}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <HorizontalStackLayout Margin="20">
+                            <Label Text="{Binding Cliente}"
+                                           Margin="0,0,20,0"
+                                           TextColor="Black"/>
+
+                            <Label Text="{Binding Direccion}" 
+                                           HorizontalTextAlignment="Center"
+                                           TextColor="Black"/>
+
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
