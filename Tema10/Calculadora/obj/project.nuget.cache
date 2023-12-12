@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sd4dNSthwv7Ax9zoliNUB9dExRSf6FDygSkXpazWs7qmu5bK+CK3U6ClUZBtrllAJ6Izs+WkHA41kVpqkl1kXg==",
+  "dgSpecHash": "a/SppFvFVaaA/vW7RN8r3UC/8oGHWf6UDY5fM6S/4SEVgILA7sxZAqFgnaesOJq2uchQZE3adTWHHbZQO0jCxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj",
+  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mditaranto\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\mditaranto\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
