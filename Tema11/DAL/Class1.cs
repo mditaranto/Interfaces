@@ -8,7 +8,7 @@
         /// <returns></returns>
         public static string CadenaConexion() 
         {
-            return "https://crudnervion.azurewebsites.net/api";
+            return "crudmati.azurewebsites.net/API/";
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj": {
+    "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj",
+        "projectPath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\mditaranto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema10\\Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema10\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uVAsyl8ywIGmUa5SHauuPrHCCAmIDhQ/ulCFs7aJjZJTBrTg59FlPDsmQYZQP3qOnZfu4n3vNnoqswVrpMVxkw==",
+  "dgSpecHash": "CS+dpQymrLmFWH5kHoxpTZaWqsaE4h7USiVR65Zm82k8/doa7f+t7gWusHhsMusRvmOVqtak4MpaK1txKVkGPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11\\BL\\BL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema11\\BL\\BL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mditaranto\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

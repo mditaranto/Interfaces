@@ -1,39 +1,75 @@
 ﻿using BL;
 using Entidades;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
+using System.ComponentModel;
+
 
 namespace Ej1.ViewModel
 {
     public class MainViewModel
     {
-        private List<ClsPersona> _listadoPersonas;
+        #region atributos
         private ObservableCollection<ClsPersona> listadoPersonas;
+        private List<ClsPersona> listadoPersonasBL;
 
+        private bool isRunning;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        #endregion
+
+        #region constructores
+        /// <summary>
+        /// Propiedad que devuelve el listado de personas
+        /// </summary>
         public ObservableCollection<ClsPersona> ListadoPersonas
         {
             get
             {
-                return _listadoPersonas;
+                return listadoPersonas;
             }
+
         }
 
         public MainViewModel()
         {
-            cargarPersonas();
-            
-        }
+            // Se inicializa la variable isRunning a true
+            isRunning = true;
+            // Llamada al método que carga el listado de personas
+            this.cargarPersonas();
 
+        }
+        #endregion
+
+        #region funciones
+        /// <summary>
+        /// Función que devuelve el listado de personas de la capa BL y rellena el listadoPersonas 
+        /// </summary>
         private async Task cargarPersonas()
         {
-            _listadoPersonas = await clsListadoPersonasBL.listadoPersonasBL();
-            listadoPersonas = new ObservableCollection<ClsPersona>(_listadoPersonas);
+            // Llamada al método de la capa BL que devuelve el listado de personas de manera asíncrona
+            listadoPersonasBL = await clsListadoPersonasBL.listadoPersonasBL();
+            // Se instancia el listado de personas
+            listadoPersonas = new ObservableCollection<ClsPersona>(listadoPersonasBL);
+
+            // Se cambia el valor de isRunning a false
+            isRunning = false;
+            OnPropertyChanged(nameof(IsRunning)); // Coge la propiedad
+            OnPropertyChanged(nameof(ListadoPersonas));
         }
-    
+
+        private void OnPropertyChanged(String property)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
+        }
+
+        #endregion
+
+        #region propiedades
+        public bool IsRunning
+        {
+            get { return isRunning; }
+        }
+
+        #endregion
     }
 }
