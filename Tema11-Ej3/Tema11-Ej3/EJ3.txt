@@ -1,0 +1,47 @@
+﻿DAL
+	clsListados
+			public static async Task<List<ClsPersona>> listadoPersonas()
+			public static async Task<List<ClsPersona>> listadoDepartamentos()
+	clsConexion
+	clsManejadoraPersona
+			public static async Task<int> insertarPersona(ClsPersona persona)
+			public static async Task<int> editarPersona(ClsPersona persona)
+
+BL
+	clsManejadoraPersonaBL
+			public static async Task<int> insertarPersonaBL(ClsPersona persona)
+			public static async Task<int> editarPersonaBL(ClsPersona persona)
+	clsListadosBL
+			public static async Task<List<ClsPersona>> listadoPersonasBL()
+			public static async Task<List<ClsPersona>> listadoDepartamentosBL()
+
+Entidades
+	ClsPersona
+	ClsDepartamento
+
+UI
+	View
+		ListadoPersonasPage
+		EditarInsertarPersonasPage 
+		ListadoDepartamentosPage
+		EditarInsertarDepartamentoPage 
+
+	ViewModel
+		ListadoPersonasPageVM
+			public ObservableCollection<ClsPersona> listadoPersonas
+			public ClsPersona personaSeleccionada
+			public DelegateCommand editarPersonaCommand
+			public DelegateCommand insertarPersonaCommand
+			public DelegateCommand filtrarPersonasCommand
+		EditarInsertarPersonasPageVM
+			public ClsPersona persona
+			public DelegateCommand aceptarCommand
+		ListadoDepartamentosPageVM
+			public ObservableCollection<ClsDepartamento> listadoDepartamentos
+			public ClsDepartamento departamentoSeleccionado
+			public DelegateCommand editarDepartamentoCommand
+			public DelegateCommand insertarDepartamentoCommand
+			public DelegateCommand filtrarDepartamentosCommand
+		EditarInsertarDepartamentoPageVM
+			public ClsDepartamento departamento
+			public DelegateCommand aceptarCommand

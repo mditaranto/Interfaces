@@ -24,7 +24,7 @@ namespace Ej1.ViewModel
         public ObservableCollection<ClsPersona> ListadoPersonas
         {
             get
-            {
+            {  
                 return listadoPersonas;
             }
 
