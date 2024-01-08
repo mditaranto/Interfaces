@@ -1,0 +1,33 @@
+﻿DAL
+	clsConexion
+	clsListadoPersonajes
+	clsListadoPlanetas
+		public static Task<String> ObtenerNombrePlaneta(int idPlaneta) {get;}
+
+Entidades
+	clsPersonaje
+	clsPlaneta
+
+BL
+	clsListadoPersonajesBL
+	clsListadoPlanetasBL
+		public static async Task<String> ObtenerNombrePlaneta(int idPlaneta) {get;}
+
+UI
+	View
+		ListadoPersonajes
+		PersonajeSeleccionado
+
+	ViewModels
+		ListadoPersonajesVM
+			public ObservableCollection<ClsPersonaje> ListadoPersonajes() {get;}
+			public ClsPersonaje personajeSeleccionado {get; set;}
+			public DelegateCommand DetallesCommand {get;}
+		PersonajeSeleccionadoVM
+		(Constructor con parametros)
+			public ClsPersonaje PersonajeSeleccionado {get;}
+			public ClsPlaneta PlanetaSeleccionado {get;}
+
+
+[MasterDetail]
+	
