@@ -11,7 +11,7 @@ namespace DAL
 
         public static string CadenaConexion() 
         {
-            return "crudnervion.azurewebsites.net/api/";
+            return "https://crudnervion.azurewebsites.net/api/";
         }
 
     }

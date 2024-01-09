@@ -12,7 +12,7 @@ namespace DAL
     public class clsManejadoraPersona
     {
 
-        public async Task<HttpStatusCode> insertaPersonaDAL(ClsPersona persona)
+        public static async Task<HttpStatusCode> insertaPersonaDAL(ClsPersona persona)
 
         {
 

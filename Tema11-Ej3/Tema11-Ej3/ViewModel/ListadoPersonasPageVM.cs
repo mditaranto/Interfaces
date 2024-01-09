@@ -10,25 +10,31 @@ namespace Tema11_Ej3.ViewModel
 {
     public class ListadoPersonasPageVM : clsVMBase 
     {
+        #region atributos privados
+        private ObservableCollection<ClsPersona> listadoPersonas;
+        private List<ClsPersona> listadoPersonasBL;
+        private ClsPersona personaSeleccionada;
+        private DelegateCommand filtrarPersonasCommand;
+        private DelegateCommand eliminarPersonaCommand;
+        #endregion
 
-        public ObservableCollection<ClsPersona> listadoPersonas;
-        public List<ClsPersona> listadoPersonasBL;
-        public ClsPersona personaSeleccionada;
-        public DelegateCommand editarPersonaCommand;
-        public DelegateCommand insertarPersonaCommand;
-        public DelegateCommand filtrarPersonasCommand;
-
-        public ListadoPersonasPageVM()
+        #region propiedades publicas
+        public DelegateCommand EliminarPersonaCommand
         {
-            rellenarListado();
+            get
+            {
+                return eliminarPersonaCommand;
+            }
         }
 
-        private async Task rellenarListado()
+        public DelegateCommand FiltrarPersonasCommand
         {
-            listadoPersonasBL = await BL.clsListadosBL.listadoPersonasBL();
-            // Se instancia el listado de personas
-            listadoPersonas = new ObservableCollection<ClsPersona>(listadoPersonasBL);
+            get
+            {
+                return filtrarPersonasCommand;
+            }
         }
+
 
         public ObservableCollection<ClsPersona> ListadoPersonas
         {
@@ -48,8 +54,53 @@ namespace Tema11_Ej3.ViewModel
             {
                 personaSeleccionada = value;
                 NotifyPropertyChanged("PersonaSeleccionada");
+                eliminarPersonaCommand.RaiseCanExecuteChanged();
             }
         }
+        #endregion
+
+        #region constructores
+        public ListadoPersonasPageVM()
+        {
+            rellenarListado();
+            eliminarPersonaCommand = new DelegateCommand(eliminarPersonaCommand_Executed, eliminarPersonaCommand_CanExecute);
+            //filtrarPersonasCommand = new DelegateCommand(filtrarPersonasCommand_Executed, filtrarPersonasCommand_CanExecute);
+        }
+
+        #endregion
+
+        #region metodos
+
+        private async Task rellenarListado()
+        {
+            listadoPersonasBL = await BL.clsListadosBL.listadoPersonasBL();
+            // Se instancia el listado de personas
+            listadoPersonas = new ObservableCollection<ClsPersona>(listadoPersonasBL);
+            NotifyPropertyChanged("ListadoPersonas");
+        }
+
+        #endregion
+
+
+        #region commands
+        private bool eliminarPersonaCommand_CanExecute()
+        {
+            if (personaSeleccionada != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private void eliminarPersonaCommand_Executed()
+        {
+            BL.clsManejadoraPersonaBL.insertaPersonaBL(personaSeleccionada);
+        }
+
+        #endregion
 
     }
 }

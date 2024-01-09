@@ -3,12 +3,15 @@
     x:Class="Tema11_Ej3.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Tema11_Ej3"
+    xmlns:local="clr-namespace:Tema11_Ej3.Views"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab>
+            <ShellContent Title="Personas" ContentTemplate="{DataTemplate local:ListadoPersonasPage}" />
+            <ShellContent Title="Departamentos" ContentTemplate="{DataTemplate local:ListadoDepartamentosPage}"/>
+        </Tab>
+    </TabBar>
+
 
 </Shell>

@@ -13,7 +13,7 @@ namespace DAL
 
             string miCadenaUrl = Conexion.CadenaConexion();
 
-            Uri miUri = new Uri($"{miCadenaUrl}Persona");
+            Uri miUri = new Uri($"{miCadenaUrl}Personas");
 
             List<ClsPersona> listadoPersonas = new List<ClsPersona>();
 

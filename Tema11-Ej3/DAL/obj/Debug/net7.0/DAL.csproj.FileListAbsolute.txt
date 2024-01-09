@@ -1,0 +1,15 @@
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\bin\Debug\net7.0\Entidades.dll
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\bin\Debug\net7.0\Entidades.pdb
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0\ref\DAL.dll

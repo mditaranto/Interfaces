@@ -155,3 +155,7 @@ gifdecoder.aar
 glide.aar
 GoogleGson.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+DAL.dll
+Entidades.dll
+DAL.aar
+Entidades.aar

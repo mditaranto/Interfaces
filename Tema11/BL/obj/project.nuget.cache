@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DVDnJ21bIxy/n4iVPqDrcFZOpkFr01HScLnPWWhJW3h0yuGZbAiBBdFuw3uFupguVcBAeRnZhEcPhBN0h4YMZA==",
+  "dgSpecHash": "CS+dpQymrLmFWH5kHoxpTZaWqsaE4h7USiVR65Zm82k8/doa7f+t7gWusHhsMusRvmOVqtak4MpaK1txKVkGPg==",
   "success": true,
-  "projectFilePath": "E:\\DAM\\Interfaces\\Tema11\\BL\\BL.csproj",
+  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema11\\BL\\BL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\mditaranto\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

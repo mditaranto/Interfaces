@@ -26,6 +26,7 @@ namespace Ej1.ViewModel
         public MainPageVM()
         {
             listaPersonas = ListaDePersonas.GetListadoCompletoPersonas();
+            NotifyPropertyChanged("ListaPersonas");
             buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
             eliminarCommand = new DelegateCommand(eliminarCommandExecute, eliminarCommandCanExecute);
         }
