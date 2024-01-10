@@ -89,4 +89,46 @@ namespace DAL
         }
     }
 
+    public static async Task<HttpStatusCode> actualizarPersonaDAL(ClsPersona persona)
+
+    {
+
+        HttpClient mihttpClient = new HttpClient();
+
+        string datos;
+
+        HttpContent contenido;
+
+        string miCadenaUrl = Conexion.CadenaConexion();
+
+        Uri miUri = new Uri($"{miCadenaUrl}Personas/{persona.Id}");
+
+        //Usaremos el Status de la respuesta para comprobar si ha actualizado
+
+        HttpResponseMessage miRespuesta = new HttpResponseMessage();
+
+        try
+
+        {
+
+            datos = JsonConvert.SerializeObject(persona);
+
+            contenido = new StringContent(datos, System.Text.Encoding.UTF8, "application/json");
+
+            miRespuesta = await mihttpClient.PutAsync(miUri, contenido);
+
+        }
+
+        catch (Exception ex)
+
+        {
+
+            throw ex;
+
+        }
+
+        return miRespuesta.StatusCode;
+
+    }
+
 }
