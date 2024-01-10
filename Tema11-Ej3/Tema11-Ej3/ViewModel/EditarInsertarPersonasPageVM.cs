@@ -10,13 +10,12 @@ namespace Tema11_Ej3.ViewModel
     public class EditarInsertarPersonasPageVM
     {
 
-        public ClsPersona persona;
-        public DelegateCommand aceptarCommand;
+        #region atributos privados
+        private ClsPersona persona;
+        private DelegateCommand aceptarCommand;
+        #endregion
 
-        public EditarInsertarPersonasPageVM()
-        {
-            
-        }
+        #region propiedades publicas
 
         public ClsPersona Persona
         {
@@ -29,6 +28,22 @@ namespace Tema11_Ej3.ViewModel
                 persona = value;
             }
         }
+
+        public DelegateCommand AceptarCommand
+        {
+            get
+            {
+                return aceptarCommand;
+            }
+        }
+
+        #endregion
+
+        public EditarInsertarPersonasPageVM()
+        {
+            
+        }
+
 
     }
 }

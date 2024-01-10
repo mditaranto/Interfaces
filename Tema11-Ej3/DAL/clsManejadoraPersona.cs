@@ -54,7 +54,7 @@ namespace DAL
 
         }
 
-        public async Task<HttpStatusCode> borrarPersonaDAL(int id)
+        public static async Task<HttpStatusCode> borrarPersonaDAL(int id)
 
         {
 

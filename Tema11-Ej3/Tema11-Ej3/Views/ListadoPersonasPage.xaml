@@ -17,6 +17,9 @@
         <Label Text="Listado de personas" FontSize="Medium" Grid.Row="0" />
 
         <Button Text="Eliminar persona" Command="{Binding EliminarPersonaCommand}" Grid.Row="0" HorizontalOptions="End" />
+        <Button Text="Añadir persona" Command="{Binding InsertarPersonaCommand}" Grid.Row="0" HorizontalOptions="Center"/>
+
+        <Entry Text="{Binding TextoBusqueda}" Placeholder="Nombre" Grid.Row="0" HorizontalOptions="Center" />
 
         <ListView x:Name="listView" ItemsSource="{Binding ListadoPersonas}" SelectedItem="{Binding PersonaSeleccionada}" Grid.Row="1">
             <ListView.ItemTemplate>

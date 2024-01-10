@@ -17,5 +17,10 @@ namespace BL
             return await clsManejadoraPersona.insertaPersonaDAL(persona);
         }
 
+        public static async Task<HttpStatusCode> borrarPersonaBL(int id)
+        {
+            return await clsManejadoraPersona.borrarPersonaDAL(id);
+        }
+
     }
 }
