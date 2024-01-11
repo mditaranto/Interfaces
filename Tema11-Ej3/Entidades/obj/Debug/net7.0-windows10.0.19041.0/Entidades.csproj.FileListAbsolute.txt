@@ -10,3 +10,15 @@ C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\refint\Entidades.dll
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\Entidades.pdb
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\ref\Entidades.dll
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\bin\Debug\net7.0-windows10.0.19041.0\Entidades.deps.json
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\bin\Debug\net7.0-windows10.0.19041.0\Entidades.dll
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\bin\Debug\net7.0-windows10.0.19041.0\Entidades.pdb
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\Entidades.csproj.AssemblyReference.cache
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\Entidades.AssemblyInfoInputs.cache
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\Entidades.AssemblyInfo.cs
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\Entidades.csproj.CoreCompileInputs.cache
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\Entidades.dll
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\refint\Entidades.dll
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\Entidades.pdb
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0-windows10.0.19041.0\ref\Entidades.dll

@@ -7,6 +7,10 @@ namespace DAL
     public class clsListados
     {
 
+        /// <summary>
+        /// Metodo que devuelve el listado de personas
+        /// </summary>
+        /// <returns></returns>
         public static async Task<List<ClsPersona>> listadoPersonas()
         {
             //Pido la cadena de la Uri al método estático
@@ -64,14 +68,17 @@ namespace DAL
 
         }
 
-
+        /// <summary>
+        /// Metodo que devuelve el listado de departamentos
+        /// </summary>
+        /// <returns></returns>
         public static async Task<List<ClsDepartamento>> listadoDepartamentos()
         {
             //Pido la cadena de la Uri al método estático
 
             string miCadenaUrl = Conexion.CadenaConexion();
 
-            Uri miUri = new Uri($"{miCadenaUrl}Departamento");
+            Uri miUri = new Uri($"{miCadenaUrl}Departamentos");
 
             List<ClsDepartamento> listadoDepartamentos = new List<ClsDepartamento>();
 

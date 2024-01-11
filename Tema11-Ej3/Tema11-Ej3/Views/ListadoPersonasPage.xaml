@@ -11,14 +11,24 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Label Text="Listado de personas" FontSize="Medium" Grid.Row="0" />
+        <!-- Listado de personas -->
+        <Label Text="Listado de personas" FontSize="Medium" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" />
 
-        <Button Text="Eliminar persona" Command="{Binding EliminarPersonaCommand}" Grid.Row="0" HorizontalOptions="End" />
+        <!-- Botones -->
+        <StackLayout Orientation="Horizontal" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="Eliminar persona" Command="{Binding EliminarPersonaCommand}" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Añadir persona" Command="{Binding InsertarPersonaCommand}" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Editar persona" Command="{Binding EditarPersonaCommand}" HorizontalOptions="CenterAndExpand"/>
+            <Entry Text="{Binding TextoBusqueda}" Placeholder="Nombre" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
 
-        <ListView x:Name="listView" ItemsSource="{Binding ListadoPersonas}" SelectedItem="{Binding PersonaSeleccionada}" Grid.Row="1">
+        <!-- Lista de personas -->
+        <ListView x:Name="listView" ItemsSource="{Binding ListadoPersonas}" SelectedItem="{Binding PersonaSeleccionada}" Grid.Row="3">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

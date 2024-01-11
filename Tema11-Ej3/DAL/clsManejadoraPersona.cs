@@ -11,7 +11,11 @@ namespace DAL
 {
     public class clsManejadoraPersona
     {
-
+        /// <summary>
+        /// Metodo que inserta una persona en la base de datos
+        /// </summary>
+        /// <param name="persona"></param>
+        /// <returns></returns>
         public static async Task<HttpStatusCode> insertaPersonaDAL(ClsPersona persona)
 
         {
@@ -54,7 +58,12 @@ namespace DAL
 
         }
 
-        public async Task<HttpStatusCode> borrarPersonaDAL(int id)
+        /// <summary>
+        /// Metodo que borra una persona de la base de datos
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static async Task<HttpStatusCode> borrarPersonaDAL(int id)
 
         {
 
@@ -87,6 +96,53 @@ namespace DAL
             return miRespuesta.StatusCode;
 
         }
-    }
 
+        /// <summary>
+        /// Metodo que actualiza una persona de la base de datos
+        /// </summary>
+        /// <param name="persona"></param>
+        /// <returns></returns>
+        public static async Task<HttpStatusCode> actualizarPersonaDAL(ClsPersona persona)
+
+        {
+
+            HttpClient mihttpClient = new HttpClient();
+
+            string datos;
+
+            HttpContent contenido;
+
+            string miCadenaUrl = Conexion.CadenaConexion();
+
+            Uri miUri = new Uri($"{miCadenaUrl}Personas/{persona.Id}");
+
+            //Usaremos el Status de la respuesta para comprobar si ha actualizado
+
+            HttpResponseMessage miRespuesta = new HttpResponseMessage();
+
+            try
+
+            {
+
+                datos = JsonConvert.SerializeObject(persona);
+
+                contenido = new StringContent(datos, System.Text.Encoding.UTF8, "application/json");
+
+                miRespuesta = await mihttpClient.PutAsync(miUri, contenido);
+
+            }
+
+            catch (Exception ex)
+
+            {
+
+                throw ex;
+
+            }
+
+            return miRespuesta.StatusCode;
+
+        }
+
+    }
 }
