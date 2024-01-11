@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tema11_Ej3.Views;
-using Windows.ApplicationModel.Contacts;
 
 namespace Tema11_Ej3.ViewModel
 {
@@ -116,6 +115,10 @@ namespace Tema11_Ej3.ViewModel
 
         #region metodos
 
+        /// <summary>
+        /// Metodo que rellena el listado de personas
+        /// </summary>
+        /// <returns></returns>
         private async Task rellenarListado()
         {
             listadoPersonasBL = await BL.clsListadosBL.listadoPersonasBL();
@@ -126,8 +129,11 @@ namespace Tema11_Ej3.ViewModel
 
         #endregion
 
-
         #region commands
+        /// <summary>
+        /// Este metodo devuelve true si la persona seleccionada no es null
+        /// </summary>
+        /// <returns></returns>
         private bool editarPersonaCommand_CanExecute()
         {
             if (personaSeleccionada != null)
@@ -140,16 +146,26 @@ namespace Tema11_Ej3.ViewModel
             }
         }
 
-        private void editarPersonaCommand_Executed()
+        /// <summary>
+        /// Envia a la pagina de editar personas pasandole la persona seleccionada
+        /// </summary>
+        private async void editarPersonaCommand_Executed()
         {
-            //IR a la pagina de editar
+            await Shell.Current.Navigation.PushAsync(new EditarInsertarPersonasPage(personaSeleccionada));
         }
 
+        /// <summary>
+        /// Envia a la pagina de insertar personas
+        /// </summary>
         private async void insertarPersonaCommand_Executed()
         {
             await Shell.Current.Navigation.PushAsync(new EditarInsertarPersonasPage());
         }
 
+        /// <summary>
+        /// Este metodo devuelve true si la persona seleccionada no es null
+        /// </summary>
+        /// <returns></returns>
         private bool eliminarPersonaCommand_CanExecute()
         {
             if (personaSeleccionada != null)
@@ -162,6 +178,9 @@ namespace Tema11_Ej3.ViewModel
             }
         }
 
+        /// <summary>
+        /// Elimina la persona seleccionada de la base de datos y del listado
+        /// </summary>
         private void eliminarPersonaCommand_Executed()
         {
             BL.clsManejadoraPersonaBL.borrarPersonaBL(personaSeleccionada.Id);
@@ -169,6 +188,9 @@ namespace Tema11_Ej3.ViewModel
             NotifyPropertyChanged("ListadoPersonas");
         }
 
+        /// <summary>
+        /// Modifica la lista segun el texto de busqueda
+        /// </summary>
         private void filtrarPersonasCommand_Executed()
         {
             ListadoPersonas = new ObservableCollection<ClsPersona>(listadoPersonasBL.Where(persona => persona.Nombre.Contains(textoBusqueda)));

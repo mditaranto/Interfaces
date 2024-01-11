@@ -8,7 +8,10 @@ namespace DAL
 {
     internal class Conexion
     {
-
+        /// <summary>
+        /// Metodo que devuelve la cadena de conexion
+        /// </summary>
+        /// <returns></returns>
         public static string CadenaConexion() 
         {
             return "https://crudnervion.azurewebsites.net/api/";

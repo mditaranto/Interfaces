@@ -30,41 +30,41 @@
     <AppXManifest Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-09T16:12:50.769</Modified>
+      <Modified>2024-01-10T21:43:39.822</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-09T16:12:50.277</Modified>
+      <Modified>2024-01-10T21:43:39.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tema11-Ej3.runtimeconfig.json">
       <PackagePath>Tema11-Ej3.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-09T15:39:58.278</Modified>
+      <Modified>2024-01-10T18:44:11.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tema11-Ej3.dll">
       <PackagePath>Tema11-Ej3.dll</PackagePath>
-      <Modified>2024-01-09T16:12:48.602</Modified>
+      <Modified>2024-01-10T21:43:37.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\BL\bin\Debug\net7.0-windows10.0.19041.0\BL.dll">
       <PackagePath>BL.dll</PackagePath>
-      <Modified>2024-01-09T15:45:24.797</Modified>
+      <Modified>2024-01-10T21:34:29.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\DAL\bin\Debug\net7.0-windows10.0.19041.0\DAL.dll">
       <PackagePath>DAL.dll</PackagePath>
-      <Modified>2024-01-09T15:45:22.815</Modified>
+      <Modified>2024-01-10T21:38:59.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Entidades\bin\Debug\net7.0-windows10.0.19041.0\Entidades.dll">
       <PackagePath>Entidades.dll</PackagePath>
-      <Modified>2024-01-09T15:24:12.100</Modified>
+      <Modified>2024-01-10T18:41:55.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Tema11-Ej3.exe</PackagePath>
-      <Modified>2024-01-09T16:12:48.757</Modified>
+      <Modified>2024-01-10T21:43:37.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tema11-Ej3.deps.json">
       <PackagePath>Tema11-Ej3.deps.json</PackagePath>
-      <Modified>2024-01-09T16:07:50.546</Modified>
+      <Modified>2024-01-10T21:34:51.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.13\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -956,23 +956,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-01-08T15:42:59.654</Modified>
+      <Modified>2024-01-10T18:37:32.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-01-08T15:42:59.679</Modified>
+      <Modified>2024-01-10T18:37:32.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-01-08T15:42:59.705</Modified>
+      <Modified>2024-01-10T18:37:32.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-01-08T15:42:59.756</Modified>
+      <Modified>2024-01-10T18:37:33.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-01-08T15:42:59.997</Modified>
+      <Modified>2024-01-10T18:37:33.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -984,207 +984,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-08T15:43:00.088</Modified>
+      <Modified>2024-01-10T18:37:33.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.438</Modified>
+      <Modified>2024-01-10T18:37:34.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.453</Modified>
+      <Modified>2024-01-10T18:37:34.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.464</Modified>
+      <Modified>2024-01-10T18:37:34.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.482</Modified>
+      <Modified>2024-01-10T18:37:34.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.554</Modified>
+      <Modified>2024-01-10T18:37:34.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.199</Modified>
+      <Modified>2024-01-10T18:37:33.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.204</Modified>
+      <Modified>2024-01-10T18:37:33.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.227</Modified>
+      <Modified>2024-01-10T18:37:33.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.211</Modified>
+      <Modified>2024-01-10T18:37:33.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.218</Modified>
+      <Modified>2024-01-10T18:37:33.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.167</Modified>
+      <Modified>2024-01-10T18:37:33.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.173</Modified>
+      <Modified>2024-01-10T18:37:33.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.193</Modified>
+      <Modified>2024-01-10T18:37:33.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.179</Modified>
+      <Modified>2024-01-10T18:37:33.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.184</Modified>
+      <Modified>2024-01-10T18:37:33.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.103</Modified>
+      <Modified>2024-01-10T18:37:33.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.109</Modified>
+      <Modified>2024-01-10T18:37:33.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.115</Modified>
+      <Modified>2024-01-10T18:37:33.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.120</Modified>
+      <Modified>2024-01-10T18:37:33.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.128</Modified>
+      <Modified>2024-01-10T18:37:33.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.133</Modified>
+      <Modified>2024-01-10T18:37:33.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.140</Modified>
+      <Modified>2024-01-10T18:37:33.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.163</Modified>
+      <Modified>2024-01-10T18:37:33.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.146</Modified>
+      <Modified>2024-01-10T18:37:33.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.152</Modified>
+      <Modified>2024-01-10T18:37:33.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.300</Modified>
+      <Modified>2024-01-10T18:37:33.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.307</Modified>
+      <Modified>2024-01-10T18:37:33.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.316</Modified>
+      <Modified>2024-01-10T18:37:33.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.327</Modified>
+      <Modified>2024-01-10T18:37:33.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.346</Modified>
+      <Modified>2024-01-10T18:37:33.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.262</Modified>
+      <Modified>2024-01-10T18:37:33.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.269</Modified>
+      <Modified>2024-01-10T18:37:33.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.275</Modified>
+      <Modified>2024-01-10T18:37:33.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.282</Modified>
+      <Modified>2024-01-10T18:37:33.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.293</Modified>
+      <Modified>2024-01-10T18:37:33.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.232</Modified>
+      <Modified>2024-01-10T18:37:33.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.238</Modified>
+      <Modified>2024-01-10T18:37:33.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.243</Modified>
+      <Modified>2024-01-10T18:37:33.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.249</Modified>
+      <Modified>2024-01-10T18:37:33.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.257</Modified>
+      <Modified>2024-01-10T18:37:33.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.354</Modified>
+      <Modified>2024-01-10T18:37:33.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.363</Modified>
+      <Modified>2024-01-10T18:37:33.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.375</Modified>
+      <Modified>2024-01-10T18:37:33.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.391</Modified>
+      <Modified>2024-01-10T18:37:33.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.426</Modified>
+      <Modified>2024-01-10T18:37:34.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.156</Modified>
+      <Modified>2024-01-10T18:37:33.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.168</Modified>
+      <Modified>2024-01-10T18:37:33.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.185</Modified>
+      <Modified>2024-01-10T18:37:33.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.208</Modified>
+      <Modified>2024-01-10T18:37:33.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-08T15:43:00.262</Modified>
+      <Modified>2024-01-10T18:37:33.675</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

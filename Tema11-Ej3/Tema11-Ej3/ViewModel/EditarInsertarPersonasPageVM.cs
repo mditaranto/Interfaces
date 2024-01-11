@@ -1,4 +1,5 @@
-﻿using Entidades;
+﻿using BL;
+using Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Tema11_Ej3.ViewModel
 {
-    public class EditarInsertarPersonasPageVM
+    public class EditarInsertarPersonasPageVM : clsVMBase
     {
 
         #region atributos privados
@@ -42,32 +43,45 @@ namespace Tema11_Ej3.ViewModel
         #region constructores
         public EditarInsertarPersonasPageVM()
         {
+           
+            esInsertar = true;
+            persona = new ClsPersona();
             aceptarCommand = new DelegateCommand(aceptarCommand_Executed, aceptarCommand_CanExecute);
         }
 
+        public EditarInsertarPersonasPageVM(ClsPersona persona)
+        {
+            this.persona = persona;
+            esInsertar = false;
+            aceptarCommand = new DelegateCommand(aceptarCommand_Executed, aceptarCommand_CanExecute);
+        }
+
+        #endregion
+
+        #region commands
+        /// <summary>
+        /// Comando que llama al metodo insertarPersonaBL o actualizarPersonaBL de la capa BL
+        /// </summary>
         private void aceptarCommand_Executed()
         {
             if (esInsertar)
             {
-                //insertar
+                BL.clsManejadoraPersonaBL.insertaPersonaBL(persona);
             }
             else
             {
-                //editar
+                BL.clsManejadoraPersonaBL.actualizarPersonaBL(persona);
             }
         }
 
+        /// <summary>
+        /// Comando que devuelve true siempre
+        /// </summary>
+        /// <returns></returns>
         private bool aceptarCommand_CanExecute()
         {
             return true;
         }
-        #endregion
-
-        #region metodos
-        #endregion
-
-        #region commands
-
         #endregion
 
 

@@ -28,6 +28,9 @@
     <MauiXaml Update="Resources\Styles\Styles.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\EditarInsertarDepartamentoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\EditarInsertarPersonasPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

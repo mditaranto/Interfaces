@@ -5,19 +5,16 @@
              Title="EditarInsertarPersonasPage"
              xmlns:VM="clr-namespace:Tema11_Ej3.ViewModel">
 
-    <ContentPage.BindingContext>
-        <VM:EditarInsertarPersonasPageVM />
-    </ContentPage.BindingContext>
-
     <VerticalStackLayout>
-        //Vista de un formalario para editar o insertar una persona
+        <Entry x:Name="IdEntry" Placeholder="Id" Text="{Binding Persona.Id}"/>
         <Entry x:Name="NombreEntry" Placeholder="Nombre" Text="{Binding Persona.Nombre}"/>
         <Entry x:Name="ApellidosEntry" Placeholder="Apellidos" Text="{Binding Persona.Apellido}"/>
         <Entry x:Name="TelefonoEntry" Placeholder="Telefono" Text="{Binding Persona.Telefono}"/>
         <Entry x:Name="DireccionEntry" Placeholder="Direccion" Text="{Binding Persona.Direccion}"/>
         <Entry x:Name="CiudadEntry" Placeholder="Ciudad" Text="{Binding Persona.Direccion}" />
         <Entry x:Name="FotoEntry" Placeholder="Foto" Text="{Binding Persona.Foto}"/>
-        <!--<Entry x:Name="Fecha de nacimiento" Placeholder="Fecha de nacimiento" Text="{Binding Persona.FechaNacimiento}"/>-->
-        <Button x:Name="GuardarButton" Text="Guardar" Clicked="{Binding AceptarCommand}" />
+        <DatePicker x:Name="FechaNacimientoDatePicker" Date="{Binding Persona.FechaNacimiento}"/>
+        <Entry x:Name="idDepartamento" Placeholder="IdDepartamento" Text="{Binding Persona.IdDepartamento}"/>
+        <Button x:Name="GuardarButton" Text="Guardar" Command="{Binding AceptarCommand}" />
     </VerticalStackLayout>
 </ContentPage>
