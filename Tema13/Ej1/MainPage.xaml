@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej1.MainPage"
+             xmlns:color="clr-namespace:Ej1">
+
+    <ContentPage.Resources>
+        
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+        <LinearGradientBrush x:Key="backgroundGradient1">
+            <GradientStop Color="Red" Offset="0.1" />
+            <GradientStop Color="Orange" Offset="0.5" />
+            <GradientStop Color="Yellow" Offset="0.9" />
+        </LinearGradientBrush>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="10"
+            BackgroundColor="LightGray">
+            <Rectangle Fill="{StaticResource backgroundGradient1}" WidthRequest="60" HeightRequest="30"/>
+            <Ellipse Fill="{StaticResource backgroundGradient2}" WidthRequest="60" HeightRequest="40"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
