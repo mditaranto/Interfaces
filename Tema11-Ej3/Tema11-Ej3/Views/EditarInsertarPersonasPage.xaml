@@ -6,7 +6,6 @@
              xmlns:VM="clr-namespace:Tema11_Ej3.ViewModel">
 
     <VerticalStackLayout>
-        <Entry x:Name="IdEntry" Placeholder="Id" Text="{Binding Persona.Id}"/>
         <Entry x:Name="NombreEntry" Placeholder="Nombre" Text="{Binding Persona.Nombre}"/>
         <Entry x:Name="ApellidosEntry" Placeholder="Apellidos" Text="{Binding Persona.Apellido}"/>
         <Entry x:Name="TelefonoEntry" Placeholder="Telefono" Text="{Binding Persona.Telefono}"/>

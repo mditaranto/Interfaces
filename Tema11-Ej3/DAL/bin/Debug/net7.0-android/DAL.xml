@@ -4,5 +4,65 @@
         <name>DAL</name>
     </assembly>
     <members>
+        <member name="M:DAL.clsListados.listadoPersonas">
+            <summary>
+            Metodo que devuelve el listado de personas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.clsListados.listadoDepartamentos">
+            <summary>
+            Metodo que devuelve el listado de departamentos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.clsManejadoraDepartamentos.eliminarDepartamento(System.Int32)">
+            <summary>
+            Metodo que elimina un departamento
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.clsManejadoraDepartamentos.insertarDepartamento(Entidades.ClsDepartamento)">
+            <summary>
+            Metodo que inserta un departamento
+            </summary>
+            <param name="departamento"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.clsManejadoraDepartamentos.actualizarDepartamento(Entidades.ClsDepartamento)">
+            <summary>
+            Metodo que actualiza un departamento
+            </summary>
+            <param name="departamento"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.clsManejadoraPersona.insertaPersonaDAL(Entidades.ClsPersona)">
+            <summary>
+            Metodo que inserta una persona en la base de datos
+            </summary>
+            <param name="persona"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.clsManejadoraPersona.borrarPersonaDAL(System.Int32)">
+            <summary>
+            Metodo que borra una persona de la base de datos
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.clsManejadoraPersona.actualizarPersonaDAL(Entidades.ClsPersona)">
+            <summary>
+            Metodo que actualiza una persona de la base de datos
+            </summary>
+            <param name="persona"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.Conexion.CadenaConexion">
+            <summary>
+            Metodo que devuelve la cadena de conexion
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>

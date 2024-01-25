@@ -127,6 +127,9 @@ namespace Tema11_Ej3.ViewModel
             NotifyPropertyChanged("ListadoPersonas");
         }
 
+        ///BOrrar
+        ///option = await app.Current.MainPage.DisplayAlert("Seguro?","Seguro que quieres borrar a " + personaSeleccionada.Nombre + "?", "Si", "No");
+        ///if option y ya
         #endregion
 
         #region commands

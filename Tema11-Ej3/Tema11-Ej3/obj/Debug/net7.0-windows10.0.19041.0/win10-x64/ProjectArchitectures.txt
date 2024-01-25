@@ -1,7 +1,7 @@
-E:\DAM\Interfaces\Tema11-Ej3\BL\BL.csproj;neutral
-E:\DAM\Interfaces\Tema11-Ej3\DAL\DAL.csproj;neutral
-E:\DAM\Interfaces\Tema11-Ej3\DAL\DAL.csproj;neutral
-E:\DAM\Interfaces\Tema11-Ej3\Entidades\Entidades.csproj;neutral
-E:\DAM\Interfaces\Tema11-Ej3\Entidades\Entidades.csproj;neutral
-E:\DAM\Interfaces\Tema11-Ej3\Entidades\Entidades.csproj;neutral
-E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\Tema11-Ej3.csproj;x64
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\BL\BL.csproj;neutral
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\DAL.csproj;neutral
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\DAL.csproj;neutral
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\Entidades\Entidades.csproj;neutral
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\Entidades\Entidades.csproj;neutral
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\Entidades\Entidades.csproj;neutral
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\Tema11-Ej3.csproj;x64

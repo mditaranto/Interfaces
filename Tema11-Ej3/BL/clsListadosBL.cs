@@ -16,7 +16,7 @@ namespace BL
             int Edad = 0;
             foreach (ClsPersona persona in listado)
             {
-                Edad = DateTime.Now.Year - persona.FechaNacimiento.Year;
+                Edad = DateTime.Now.Year - persona.FechaNac.Year;
                 if (DateTime.Now.DayOfWeek == DayOfWeek.Friday || DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
                 {
                     if (Edad < 18)
