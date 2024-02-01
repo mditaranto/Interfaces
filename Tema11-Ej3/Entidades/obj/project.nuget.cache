@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pntizAbY3GY2yWJgAd7BrKbV+9JcQaUqvJtdbXwsGu6sFOlGxCSFxNZ/BBm0WMMwwd9fD4WxT1jGEag1+pqsIQ==",
+  "dgSpecHash": "bpUaiZeDH9SXkPtfSUpFxzVKJylBP5QTcrpR0fhtJiEaRn3iEnmH24K1u3Qgzuqam+xc4NlOHPsL3zHmUYcEFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mditaranto\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\mditaranto\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

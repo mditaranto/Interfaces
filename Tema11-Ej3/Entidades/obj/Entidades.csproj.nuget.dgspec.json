@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {}
+    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\mditaranto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
