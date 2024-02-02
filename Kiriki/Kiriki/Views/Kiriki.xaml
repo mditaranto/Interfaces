@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kiriki.Views.Kiriki"
+             Title="Kiriki"
+             xmlns:VM="clr-namespace:Kiriki.ViewModel">
+
+    <ContentPage.BindingContext>
+        <VM:KirikiVM/>
+    </ContentPage.BindingContext>
+
+    <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Contenido para la primera fila -->
+        <Label Grid.Row="0" Text="{Binding Vidas}" HorizontalOptions="Center" VerticalOptions="Center" />
+
+        <!-- Contenido para la segunda fila -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Contenido para la primera columna -->
+            <Image Grid.Column="0" Source="{Binding FotoDado1}" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <!-- Contenido para la segunda columna -->
+            <Image Grid.Column="1" Source="{Binding FotoDado2}" HorizontalOptions="Center" VerticalOptions="Center" />
+        </Grid>
+
+        <!-- Contenido para la tercera fila -->
+        <Button Grid.Row="2" Text="{Binding TextoBoton}" Command="{Binding Miente}" HorizontalOptions="Center" VerticalOptions="Center" />
+
+        <!-- Contenido para la cuarta fila -->
+        <Button Grid.Row="3" Text="{Binding TextoBoton2}" Command="{Binding Tirar}" HorizontalOptions="Center" VerticalOptions="Center" />
+    </Grid>
+
+</ContentPage>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eMTFFHlRiml4C3KfdkIdzxwbF84UrfaKvJ984dgogkz8u70TwGymEnbqFofU9X/amNVeTxePmUkWij7mBBb7Eg==",
+  "dgSpecHash": "H0uPf1sv1DJZzKVdtTWNPBeQ9iQ/kakPrgWZMKNRU/evlRXYda0CAmeon4PugGDwHU2XWiStbXvToF4J4QGuiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj",
+  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mditaranto\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\mditaranto\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
