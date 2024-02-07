@@ -21,7 +21,6 @@ namespace Ejercicio.ViewModel
         private DelegateCommand enviarMensajeCommand; //command para enviar mensaje
         #endregion
 
-        //
         #region constructores
         public ChatVM()
         {
