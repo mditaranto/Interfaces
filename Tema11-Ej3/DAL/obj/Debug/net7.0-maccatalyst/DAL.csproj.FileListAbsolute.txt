@@ -42,3 +42,4 @@ E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-maccatalyst\DAL.dll
 E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-maccatalyst\refint\DAL.dll
 E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-maccatalyst\DAL.pdb
 E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-maccatalyst\ref\DAL.dll
+E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-maccatalyst\DAL.sourcelink.json

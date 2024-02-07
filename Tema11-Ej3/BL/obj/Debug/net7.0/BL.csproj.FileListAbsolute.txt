@@ -32,3 +32,4 @@ E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0\BL.dll
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0\refint\BL.dll
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0\BL.pdb
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0\ref\BL.dll
+E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0\BL.sourcelink.json

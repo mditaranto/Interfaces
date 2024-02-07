@@ -549,7 +549,6 @@ E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1323.51816.dll
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -660,3 +659,5 @@ E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1523.57226.dll
+E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Tema11-Ej3.sourcelink.json

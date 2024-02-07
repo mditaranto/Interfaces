@@ -14,6 +14,7 @@ namespace Entidades
 
         public ClsDepartamento()
         {
+
         }
 
         public ClsDepartamento(int id, string nombre)

@@ -22,3 +22,4 @@ E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0\Entidades.dll
 E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0\refint\Entidades.dll
 E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0\Entidades.pdb
 E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0\ref\Entidades.dll
+E:\DAM\Interfaces\Tema11-Ej3\Entidades\obj\Debug\net7.0\Entidades.sourcelink.json

@@ -66,11 +66,15 @@ namespace Tema11_Ej3.ViewModel
         {
             if (esInsertar)
             {
+                //Da un error 400 y no se por que. Solo se me ocurre que sea porque estoy introduciendo
+                // un id a la persona y devuelva error al intentar hacer un post con un id
                 BL.clsManejadoraPersonaBL.insertaPersonaBL(persona);
+                Shell.Current.Navigation.PopAsync();
             }
             else
             {
                 BL.clsManejadoraPersonaBL.actualizarPersonaBL(persona);
+                Shell.Current.Navigation.PopAsync();
             }
         }
 

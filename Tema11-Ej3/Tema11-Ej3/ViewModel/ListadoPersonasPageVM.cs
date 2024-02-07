@@ -184,11 +184,22 @@ namespace Tema11_Ej3.ViewModel
         /// <summary>
         /// Elimina la persona seleccionada de la base de datos y del listado
         /// </summary>
-        private void eliminarPersonaCommand_Executed()
+        private async void eliminarPersonaCommand_Executed()
         {
-            BL.clsManejadoraPersonaBL.borrarPersonaBL(personaSeleccionada.Id);
-            listadoPersonas.Remove(personaSeleccionada);
-            NotifyPropertyChanged("ListadoPersonas");
+            try
+            {
+                bool answer = await App.Current.MainPage.DisplayAlert("Borrar", "Desea borrar esta persona", "Yes", "No");
+                if (answer)
+                {
+                    BL.clsManejadoraPersonaBL.borrarPersonaBL(personaSeleccionada.Id);
+                    listadoPersonas.Remove(personaSeleccionada);
+                    NotifyPropertyChanged("ListadoPersonas");
+                }
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("Error", "Ha ocurrido un error al borrar la persona", "Ok");
+            }
         }
 
         /// <summary>

@@ -42,3 +42,4 @@ E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-ios\DAL.dll
 E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-ios\refint\DAL.dll
 E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-ios\DAL.pdb
 E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-ios\ref\DAL.dll
+E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-ios\DAL.sourcelink.json

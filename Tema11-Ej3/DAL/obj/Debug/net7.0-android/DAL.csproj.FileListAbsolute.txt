@@ -166,3 +166,4 @@ C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-andro
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-android\lp\155\jl\files.cache
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-android\lp\156\jl\files.cache
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-android\lp\157\jl\files.cache
+E:\DAM\Interfaces\Tema11-Ej3\DAL\obj\Debug\net7.0-android\DAL.sourcelink.json

@@ -46,3 +46,4 @@ E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-ios\BL.dll
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-ios\refint\BL.dll
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-ios\BL.pdb
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-ios\ref\BL.dll
+E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-ios\BL.sourcelink.json

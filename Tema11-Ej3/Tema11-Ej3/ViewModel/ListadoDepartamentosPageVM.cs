@@ -146,11 +146,21 @@ namespace Tema11_Ej3.ViewModel
         /// <summary>
         /// Comando que elimina un departamento
         /// </summary>
-        private void deleteDepartamentoCommand_Executed()
+        private async void deleteDepartamentoCommand_Executed()
         {
-            BL.clsManejadoraDepartamentosBL.eliminarDepartamentoBL(departamentoSelecionado.id);
-            listadoDepartamentos.Remove(departamentoSelecionado);
-            NotifyPropertyChanged("ListadoDepartamentos");
+            try
+            {
+                bool answer = await App.Current.MainPage.DisplayAlert("Borrar", "Desea borrar este departamento", "Yes", "No");
+                if (answer)
+                {
+                    BL.clsManejadoraDepartamentosBL.eliminarDepartamentoBL(departamentoSelecionado.id);
+                    listadoDepartamentos.Remove(departamentoSelecionado);
+                    NotifyPropertyChanged("ListadoDepartamentos");
+                }
+            } catch
+            {
+                   await App.Current.MainPage.DisplayAlert("Error", "No se ha podido borrar el departamento", "Ok");
+            }
         }
 
         /// <summary>
@@ -158,6 +168,7 @@ namespace Tema11_Ej3.ViewModel
         /// </summary>
         private void filtrarDepartamentosCommand_Executed()
         {
+            
             listadoDepartamentos = new ObservableCollection<ClsDepartamento>(listadoDeptBL.Where(x => x.nombre.Contains(textoBusqueda)));
             NotifyPropertyChanged("ListadoDepartamentos");
         }
@@ -195,11 +206,6 @@ namespace Tema11_Ej3.ViewModel
         }
 
         #endregion
-
-
-
-
-
 
 
     }

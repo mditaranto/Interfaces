@@ -7,6 +7,7 @@
     <VerticalStackLayout>
         <Entry Text="{Binding Departamento.Nombre}" />
         <Entry Text="{Binding Departamento.Id}" />
+        <Button Text="Guardar" Command="{Binding AceptarCommand}" />
     </VerticalStackLayout>
     
 </ContentPage>

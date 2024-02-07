@@ -72,10 +72,12 @@ namespace Tema11_Ej3.ViewModel
                 if (esInsertar)
                 {
                     BL.clsManejadoraDepartamentosBL.insertarDepartamentoBL(departamento);
+                    Shell.Current.Navigation.PopAsync();
                 }
                 else
                 {
                     BL.clsManejadoraDepartamentosBL.actualizarDepartamentoBL(departamento);
+                    Shell.Current.Navigation.PopAsync();
                 }
             }
             #endregion

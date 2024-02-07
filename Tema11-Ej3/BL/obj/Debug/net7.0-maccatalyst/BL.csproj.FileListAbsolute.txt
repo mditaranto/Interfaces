@@ -46,3 +46,4 @@ E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-maccatalyst\BL.dll
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-maccatalyst\refint\BL.dll
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-maccatalyst\BL.pdb
 E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-maccatalyst\ref\BL.dll
+E:\DAM\Interfaces\Tema11-Ej3\BL\obj\Debug\net7.0-maccatalyst\BL.sourcelink.json

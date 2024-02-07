@@ -184,7 +184,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -195,6 +195,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -2164,7 +2176,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -2175,6 +2187,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -4144,7 +4168,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -4155,6 +4179,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -6124,7 +6160,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -6135,6 +6171,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -8104,7 +8152,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -8115,6 +8163,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -10084,7 +10144,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -10095,6 +10155,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -12064,7 +12136,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -12075,6 +12147,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -14044,7 +14128,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -14055,6 +14139,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -16011,7 +16107,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16022,6 +16118,18 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -16250,7 +16358,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16261,6 +16369,18 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -16489,7 +16609,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16500,6 +16620,18 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -16728,7 +16860,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16739,6 +16871,18 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -16967,7 +17111,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16978,6 +17122,18 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -17206,7 +17362,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -17217,6 +17373,18 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -17445,7 +17613,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -17456,6 +17624,18 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -17684,7 +17864,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -17695,6 +17875,18 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -17923,7 +18115,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -17934,6 +18126,18 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18162,7 +18366,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18173,6 +18377,18 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18401,7 +18617,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18412,6 +18628,18 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18640,7 +18868,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18651,6 +18879,18 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18879,7 +19119,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18890,6 +19130,18 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -19118,7 +19370,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -19129,6 +19381,18 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -19357,7 +19621,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -19368,6 +19632,18 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -19596,7 +19872,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -19607,6 +19883,18 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -19864,7 +20152,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -19877,11 +20165,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -20228,7 +20516,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -20241,11 +20529,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -20578,7 +20866,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -20591,11 +20879,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -20928,7 +21216,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -20941,11 +21229,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -21278,7 +21566,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -21291,11 +21579,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -21628,7 +21916,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -21641,11 +21929,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -21978,7 +22266,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -21991,11 +22279,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -22331,7 +22619,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -22344,11 +22632,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -22843,10 +23131,10 @@
         "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll"
       ]
     },
-    "Microsoft.Maui.Graphics/7.0.92": {
-      "sha512": "fe9pKhm5LZGsAbEZQg7VEHGer76h8m8VPkGRWJ4P0+3QMu3yXOYmOiA60Wskjk8Mrd6eXZCQUWTTeley1agYQg==",
+    "Microsoft.Maui.Graphics/7.0.101": {
+      "sha512": "2+dHQpufctgN66Y+otNnBu9o+ODYlHvc2ufQ185wB2GqhklQeeko4xFsZSj3weDif4Idg0cgAY84qU3cQ0OcTw==",
       "type": "package",
-      "path": "microsoft.maui.graphics/7.0.92",
+      "path": "microsoft.maui.graphics/7.0.101",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -22882,14 +23170,14 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.dll",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
-        "microsoft.maui.graphics.7.0.92.nupkg.sha512",
+        "microsoft.maui.graphics.7.0.101.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.92": {
-      "sha512": "4snL9nMCGIzZ6utx8T8X42k3TjaA1PZY7Mpr1/LFyvxanja4f+zWroierjBCciBNoz8Zb0RJEMxxpr16SUcRGw==",
+    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
+      "sha512": "P6uBnryY3b3rpLiKj173UIf4z/dWJqntEabUiPBlJgXIcR4+u8IQg00cADNw+OsSD1yZwSwL+4pEFp5YyiOf/A==",
       "type": "package",
-      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.92",
+      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.101",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -22899,8 +23187,55 @@
         "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pdb",
         "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll",
         "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pdb",
-        "microsoft.maui.graphics.win2d.winui.desktop.7.0.92.nupkg.sha512",
+        "microsoft.maui.graphics.win2d.winui.desktop.7.0.101.nupkg.sha512",
         "microsoft.maui.graphics.win2d.winui.desktop.nuspec"
+      ]
+    },
+    "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+      "sha512": "0GvbEgDGcUQA9KuWcQU1WwYHXt1tBzNr1Nls/M57rM7NA/AndFwCaCEoJpJkmxRY7xLlPDBnmGp8h5+FNqUngg==",
+      "type": "package",
+      "path": "microsoft.net.illink.analyzers/7.0.100-1.23211.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+        "microsoft.net.illink.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+      "sha512": "tvG8XZYLjT0o3WicCyKBZysVWo1jC9HdCFmNRmddx3WbAz0UCsd0qKZqpiEo99VLA8Re+FzWK51OcRldQPbt2Q==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/7.0.100-1.23211.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "Sdk/Sdk.props",
+        "build/6.0_suppressions.xml",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net7.0/ILLink.Tasks.deps.json",
+        "tools/net7.0/ILLink.Tasks.dll",
+        "tools/net7.0/Mono.Cecil.Pdb.dll",
+        "tools/net7.0/Mono.Cecil.dll",
+        "tools/net7.0/illink.deps.json",
+        "tools/net7.0/illink.dll",
+        "tools/net7.0/illink.runtimeconfig.json"
       ]
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
@@ -25786,9 +26121,10 @@
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
-      "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92",
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "Newtonsoft.Json >= 13.0.3",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
@@ -25808,9 +26144,10 @@
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
-      "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92",
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net7.0-maccatalyst16.1": [
@@ -25819,9 +26156,10 @@
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
-      "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92",
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net7.0-windows10.0.19041": [
@@ -25830,33 +26168,32 @@
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
-      "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92",
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.92",
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.101",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mditaranto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "E:\\VisualStudio\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Tema11-Ej3\\Tema11-Ej3.csproj",
+      "projectUniqueName": "E:\\DAM\\Interfaces\\Tema11-Ej3\\Tema11-Ej3\\Tema11-Ej3.csproj",
       "projectName": "Tema11-Ej3",
-      "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Tema11-Ej3\\Tema11-Ej3.csproj",
-      "packagesPath": "C:\\Users\\mditaranto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Tema11-Ej3\\obj\\",
+      "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\Tema11-Ej3\\Tema11-Ej3.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\Tema11-Ej3\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "E:\\VisualStudio\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mditaranto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -25875,44 +26212,44 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj"
+            "E:\\DAM\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj": {
+              "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj"
             },
-            "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj"
+            "E:\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
+              "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
-            "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj"
+            "E:\\DAM\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj": {
+              "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj"
             },
-            "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj"
+            "E:\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
+              "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj"
+            "E:\\DAM\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj": {
+              "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj"
             },
-            "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj"
+            "E:\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
+              "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj"
+            "E:\\DAM\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj": {
+              "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\BL\\BL.csproj"
             },
-            "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj"
+            "E:\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj": {
+              "projectPath": "E:\\DAM\\Interfaces\\Tema11-Ej3\\Entidades\\Entidades.csproj"
             }
           }
         }
@@ -25942,18 +26279,25 @@
             "version": "[7.0.0, )",
             "autoReferenced": true
           },
-          "Microsoft.Extensions.Logging.Abstractions": {
-            "target": "Package",
-            "version": "[7.0.0, )",
-            "autoReferenced": true
-          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.92, )",
+            "version": "[7.0.101, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -26027,6 +26371,52 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Android.Ref.33",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.33.android-arm",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.33.android-arm64",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.33.android-x64",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.33.android-x86",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.android",
+            "version": "[7.0.101, 7.0.101]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.Android": {
             "privateAssets": "all"
@@ -26044,7 +26434,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       },
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
@@ -26064,18 +26454,25 @@
             "version": "[7.0.0, )",
             "autoReferenced": true
           },
-          "Microsoft.Extensions.Logging.Abstractions": {
-            "target": "Package",
-            "version": "[7.0.0, )",
-            "autoReferenced": true
-          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.92, )",
+            "version": "[7.0.101, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -26094,6 +26491,40 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.iOS.Ref",
+            "version": "[16.4.7129, 16.4.7129]"
+          },
+          {
+            "name": "Microsoft.iOS.Runtime.iossimulator-x64",
+            "version": "[16.4.7129, 16.4.7129]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.ios",
+            "version": "[7.0.101, 7.0.101]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.iOS": {
             "privateAssets": "all"
@@ -26111,7 +26542,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       },
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
@@ -26131,18 +26562,25 @@
             "version": "[7.0.0, )",
             "autoReferenced": true
           },
-          "Microsoft.Extensions.Logging.Abstractions": {
-            "target": "Package",
-            "version": "[7.0.0, )",
-            "autoReferenced": true
-          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.92, )",
+            "version": "[7.0.101, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -26162,6 +26600,40 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.MacCatalyst.Ref",
+            "version": "[16.4.7129, 16.4.7129]"
+          },
+          {
+            "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
+            "version": "[16.4.7129, 16.4.7129]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.MacCatalyst": {
             "privateAssets": "all"
@@ -26179,7 +26651,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       },
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
@@ -26199,23 +26671,18 @@
             "version": "[7.0.0, )",
             "autoReferenced": true
           },
-          "Microsoft.Extensions.Logging.Abstractions": {
-            "target": "Package",
-            "version": "[7.0.0, )",
-            "autoReferenced": true
-          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.92, )",
+            "version": "[7.0.101, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
             "target": "Package",
-            "version": "[7.0.92, )",
+            "version": "[7.0.101, )",
             "autoReferenced": true
           },
           "Microsoft.WindowsAppSDK": {
@@ -26242,19 +26709,43 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[7.0.11, 7.0.11]"
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.win",
+            "version": "[7.0.101, 7.0.101]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[7.0.11, 7.0.11]"
+            "version": "[7.0.15, 7.0.15]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.29, 10.0.19041.29]"
+            "version": "[10.0.19041.31, 10.0.19041.31]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[7.0.11, 7.0.11]"
+            "version": "[7.0.15, 7.0.15]"
           }
         ],
         "frameworkReferences": {
@@ -26274,7 +26765,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
