@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Kiriki
-build_property.ProjectDir = C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\
+build_property.ProjectDir = C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\
 
-[C:/Users/mditaranto/Desktop/DAM/Interfaces/Kiriki/Kiriki/App.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/mditaranto/Desktop/DAM/Interfaces/Kiriki/Kiriki/AppShell.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/mditaranto/Desktop/DAM/Interfaces/Kiriki/Kiriki/Resources/Styles/Colors.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/mditaranto/Desktop/DAM/Interfaces/Kiriki/Kiriki/Resources/Styles/Styles.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/mditaranto/Desktop/DAM/Interfaces/Kiriki/Kiriki/Views/Kiriki.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/Views/Kiriki.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.Views.Kiriki.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Kiriki.xaml

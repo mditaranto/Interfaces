@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dDySRwtpWevSZsCKj0SSKXv+2fBpzGzx3HyBsAuijhqrg4L3xQaaye6eqcDeDnn/BNMgT6ZEmsH5GbwA/GYbNg==",
+  "dgSpecHash": "QyL7OdKrp+qRawHfmAPK4Pd4+IXl2Hwtf6OXcl87hUJ3+eIOIL1PrHJLDgV7xpemzT2KeYrdUcPxJ689tAGq1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Tema12\\Ejercicio\\Ejercicio.csproj",
+  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Tema12\\Ejercicio\\Ejercicio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mditaranto\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\mditaranto\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.0\\microsoft.aspnetcore.connections.abstractions.7.0.0.nupkg.sha512",

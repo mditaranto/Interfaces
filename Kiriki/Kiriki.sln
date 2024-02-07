@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiriki", "Kiriki\Kiriki.csproj", "{2FFF6796-3452-44AE-87AA-41E42CC2C697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiriki", "Kiriki\Kiriki.csproj", "{2FFF6796-3452-44AE-87AA-41E42CC2C697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KirikiServer", "KirikiServer\KirikiServer.csproj", "{32060918-41AA-46A9-805F-99E26220E002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{2FFF6796-3452-44AE-87AA-41E42CC2C697}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FFF6796-3452-44AE-87AA-41E42CC2C697}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2FFF6796-3452-44AE-87AA-41E42CC2C697}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{32060918-41AA-46A9-805F-99E26220E002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32060918-41AA-46A9-805F-99E26220E002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32060918-41AA-46A9-805F-99E26220E002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32060918-41AA-46A9-805F-99E26220E002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
