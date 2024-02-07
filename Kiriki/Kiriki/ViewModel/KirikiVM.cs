@@ -15,10 +15,13 @@ namespace Kiriki.ViewModel
         private int valorDado2;
         private String fotoDado1;
         private String fotoDado2;
+
         private int vidas;
         private string textoBoton;
         private string textoBoton2;
+        private bool haTirado;
         private bool comprobarMentira;
+
         private DelegateCommand miente;
         private DelegateCommand tirar;
         #endregion
@@ -145,8 +148,16 @@ namespace Kiriki.ViewModel
                 FotoDado1 = "interr.png";
                 FotoDado2 = "interr.png";
             }
+            else if (haTirado)
+            {
+                TextoBoton2 = "Pasar turno";
+                haTirado = true;
+
+
+            }
             else
             {
+                haTirado = true;
                 Random rnd = new Random();
                 valorDado1 = rnd.Next(1, 6);
                 valorDado2 = rnd.Next(1, 6);

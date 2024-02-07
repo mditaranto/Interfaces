@@ -7,6 +7,6 @@ namespace KirikiServer.Hubs
         public async Task MostrarDado(String dado1, String dado2)
         {
             await Clients.All.SendAsync("MostrarDado", dado1, dado2);
-        }
+        } 
     }
 }
