@@ -1,5 +1,6 @@
 ﻿
 using Kiriki.ViewModel.Sources;
+using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,9 @@ namespace Kiriki.ViewModel
     public class KirikiVM : clsVMBase
     {
         #region atributos privados
+
+        private readonly HubConnection conexion;
+
         private int valorDado1;
         private int valorDado2;
         private String fotoDado1;
@@ -105,10 +109,16 @@ namespace Kiriki.ViewModel
         #region constructores
         public KirikiVM()
         {
+            conexion = new HubConnectionBuilder().WithUrl("http://localhost:5066/KirikiHub").Build();
             miente = new DelegateCommand(MienteCommandExecute, MienteCommandCanExecute);
             tirar = new DelegateCommand(TirarCommandExecute);
             textoBoton = "Mostrar dados";
             textoBoton2 = "Tirar";
+            conexion.On<int, int>("MostrarDado", MostrarDado);
+            conexion.On<bool>("PasarTurno", PasarTurno);
+            conexion.On<int>("CalcularVida", CalcularVida);
+            IniciarConexion();
+
         }
         #endregion
 
@@ -173,6 +183,28 @@ namespace Kiriki.ViewModel
                 return true;
             else
                 return false;
+        }
+        #endregion
+
+        #region metodos
+        private async void IniciarConexion()
+        {
+            await conexion.StartAsync();
+        }
+
+        private void CalcularVida(int obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void PasarTurno(bool obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void MostrarDado(int arg1, int arg2)
+        {
+            throw new NotImplementedException();
         }
         #endregion
     }

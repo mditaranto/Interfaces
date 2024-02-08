@@ -8,5 +8,16 @@ namespace KirikiServer.Hubs
         {
             await Clients.All.SendAsync("MostrarDado", dado1, dado2);
         } 
+
+        public async Task PasarTurno(String turno, bool tuTurno)
+        {
+            await Clients.All.SendAsync("PasarTurno", turno);
+        }
+
+        public async Task CalcularVida(int vida)
+        {
+            await Clients.All.SendAsync("CalcularVida", vida);
+        }
+
     }
 }
