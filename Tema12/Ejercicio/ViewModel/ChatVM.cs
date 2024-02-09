@@ -108,10 +108,6 @@ namespace Ejercicio.ViewModel
 
         }
 
-        //        this.Dispatcher.Dispatch(() => {
-        //    this.listadoMensajes.Add(message);
-        //});
-
         /// <summary>
         /// metodo para iniciar la conexion con el servidor de forma asincrona
         /// </summary>
