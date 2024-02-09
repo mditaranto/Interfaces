@@ -1,8 +1,4 @@
 is_global = true
-build_property.EnableAotAnalyzer = 
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = false
-build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0-ios
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -12,59 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tema11_Ej3
-build_property.ProjectDir = E:\DAM\Interfaces\Tema11-Ej3\Tema11-Ej3\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\mditaranto\Desktop\Curso\Interfaces\Tema11-Ej3\Tema11-Ej3\
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/App.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/AppShell.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/MainPage.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/Resources/Styles/Colors.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/Resources/Styles/Styles.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/Views/EditarInsertarDepartamentoPage.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/Views/EditarInsertarDepartamentoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.Views.EditarInsertarDepartamentoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\EditarInsertarDepartamentoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EditarInsertarDepartamentoPage.xaml
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/Views/EditarInsertarPersonasPage.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/Views/EditarInsertarPersonasPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.Views.EditarInsertarPersonasPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\EditarInsertarPersonasPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EditarInsertarPersonasPage.xaml
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/Views/ListadoDepartamentosPage.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/Views/ListadoDepartamentosPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.Views.ListadoDepartamentosPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoDepartamentosPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ListadoDepartamentosPage.xaml
 
-[E:/DAM/Interfaces/Tema11-Ej3/Tema11-Ej3/Views/ListadoPersonasPage.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Tema11-Ej3/Tema11-Ej3/Views/ListadoPersonasPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tema11_Ej3.Views.ListadoPersonasPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoPersonasPage.xaml

@@ -9,9 +9,9 @@ namespace KirikiServer.Hubs
             await Clients.All.SendAsync("Tirar", dado1, dado2);
         } 
 
-        public async Task PasarTurno()
+        public void PasarTurno()
         {
-            await Clients.All.SendAsync("PasarTurno");
+            Clients.Others.SendAsync("PasarTurno");
         }
 
         public async Task CalcularVida()

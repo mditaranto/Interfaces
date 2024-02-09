@@ -39,3 +39,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.Views.Kiriki.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Kiriki.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Kiriki.xaml
+
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/Views/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.Views.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml

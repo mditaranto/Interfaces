@@ -1,4 +1,5 @@
 ﻿
+using Kiriki.Models;
 using Kiriki.ViewModel.Sources;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
@@ -20,11 +21,10 @@ namespace Kiriki.ViewModel
         private String fotoDado1;
         private String fotoDado2;
 
-        private int vidas;
+        private Player jugador;
         private string textoBoton;
         private string textoBoton2;
 
-        private bool puedeTirar;
         private bool comprobarMentira;
         private bool haComprobado;
 
@@ -33,15 +33,6 @@ namespace Kiriki.ViewModel
         #endregion
 
         #region propiedades publicas
-        public bool PuedeTirar
-        {
-            get { return puedeTirar; }
-            set 
-            { 
-                puedeTirar = value;
-                NotifyPropertyChanged("PuedeTirar");
-            }
-        }
 
         public int ValorDado1
         {
@@ -79,15 +70,6 @@ namespace Kiriki.ViewModel
                 NotifyPropertyChanged("FotoDado2");
             }
         }
-        public int Vidas
-        {
-            get { return vidas; }
-            set
-            {
-                vidas = value;
-                NotifyPropertyChanged("Vidas");
-            }
-        }
         public DelegateCommand Miente
         {
             get { return miente; }
@@ -116,11 +98,17 @@ namespace Kiriki.ViewModel
                 NotifyPropertyChanged("TextoBoton2");
             }
         }
+
+        public Player Jugador
+        {
+            get { return jugador; }
+        }
         #endregion
 
         #region constructores
-        public KirikiVM()
+        public KirikiVM(string usuario)
         {
+            jugador = new Player(usuario);
             conexion = new HubConnectionBuilder().WithUrl("http://localhost:5196/KirikiHub").Build();
             miente = new DelegateCommand(MienteCommandExecute, MienteCommandCanExecute);
             tirar = new DelegateCommand(TirarCommandExecute);
@@ -131,16 +119,13 @@ namespace Kiriki.ViewModel
             conexion.On<int, int>("Tirar", TirarDado);
             conexion.On("PasarTurno", PasarTurno);
             conexion.On("CalcularVida", CalcularVida);
-            puedeTirar = true;
             IniciarConexion();
 
         }
 
- 
         #endregion
 
         #region comandos
-
         public async void MienteCommandExecute()
         {
             if (comprobarMentira)
@@ -154,7 +139,7 @@ namespace Kiriki.ViewModel
                 haComprobado = true;
 
             }
-            else if (puedeTirar && !haComprobado)
+            else if (jugador.PuedeTirar && !haComprobado)
             {
                 FotoDado1 = "dado" + valorDado1 + ".png";
                 FotoDado2 = "dado" + valorDado2 + ".png";
@@ -169,7 +154,7 @@ namespace Kiriki.ViewModel
         {
             if (comprobarMentira)
             {
-                Vidas--;
+                jugador.Vidas--;
                 TextoBoton = "Mostrar dados";
                 TextoBoton2 = "Tirar";
                 comprobarMentira = false;
@@ -177,7 +162,7 @@ namespace Kiriki.ViewModel
                 FotoDado2 = "interr.png";
                 haComprobado = true;
             }
-            else if (!puedeTirar)
+            else if (!jugador.PuedeTirar)
             {
                 TextoBoton2 = "Tirar";
                 await conexion.InvokeAsync("PasarTurno");
@@ -186,7 +171,7 @@ namespace Kiriki.ViewModel
             else
             {
                 TextoBoton2 = "Pasar turno";
-                PuedeTirar = false;
+                jugador.PuedeTirar = false;
                 Random rnd = new Random();
                 valorDado1 = rnd.Next(1, 6);
                 valorDado2 = rnd.Next(1, 6);
@@ -199,7 +184,7 @@ namespace Kiriki.ViewModel
 
         private bool MienteCommandCanExecute()
         {
-            if (valorDado1 != 0 && valorDado2 != 0 && puedeTirar)
+            if (valorDado1 != 0 && valorDado2 != 0 && jugador.PuedeTirar)
                 return true;
             else
                 return false;
@@ -217,7 +202,7 @@ namespace Kiriki.ViewModel
         {
             Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
             {
-                Vidas--;
+                jugador.Vidas--;
             });
         }
 
@@ -225,7 +210,8 @@ namespace Kiriki.ViewModel
         {
             Device.BeginInvokeOnMainThread(() =>
             {
-                PuedeTirar = true;
+                jugador.PuedeTirar = true;
+                NotifyPropertyChanged("PuedeTirar");
             });
         }
 
