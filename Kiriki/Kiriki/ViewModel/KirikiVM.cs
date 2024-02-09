@@ -23,14 +23,26 @@ namespace Kiriki.ViewModel
         private int vidas;
         private string textoBoton;
         private string textoBoton2;
-        private bool haTirado;
+
+        private bool puedeTirar;
         private bool comprobarMentira;
+        private bool haComprobado;
 
         private DelegateCommand miente;
         private DelegateCommand tirar;
         #endregion
 
         #region propiedades publicas
+        public bool PuedeTirar
+        {
+            get { return puedeTirar; }
+            set 
+            { 
+                puedeTirar = value;
+                NotifyPropertyChanged("PuedeTirar");
+            }
+        }
+
         public int ValorDado1
         {
             get { return valorDado1; }
@@ -109,34 +121,40 @@ namespace Kiriki.ViewModel
         #region constructores
         public KirikiVM()
         {
-            conexion = new HubConnectionBuilder().WithUrl("http://localhost:5066/KirikiHub").Build();
+            conexion = new HubConnectionBuilder().WithUrl("http://localhost:5196/KirikiHub").Build();
             miente = new DelegateCommand(MienteCommandExecute, MienteCommandCanExecute);
             tirar = new DelegateCommand(TirarCommandExecute);
             textoBoton = "Mostrar dados";
             textoBoton2 = "Tirar";
-            conexion.On<int, int>("MostrarDado", MostrarDado);
-            conexion.On<bool>("PasarTurno", PasarTurno);
-            conexion.On<int>("CalcularVida", CalcularVida);
+            fotoDado1 = "interr.png";
+            fotoDado2 = "interr.png";
+            conexion.On<int, int>("Tirar", TirarDado);
+            conexion.On("PasarTurno", PasarTurno);
+            conexion.On("CalcularVida", CalcularVida);
+            puedeTirar = true;
             IniciarConexion();
 
         }
+
+ 
         #endregion
 
         #region comandos
 
-        public void MienteCommandExecute()
+        public async void MienteCommandExecute()
         {
             if (comprobarMentira)
             {
-                Vidas--;
+                await conexion.InvokeAsync("CalcularVida");
                 TextoBoton = "Mostrar dados";
                 TextoBoton2 = "Tirar";
                 comprobarMentira = false;
                 FotoDado1 = "interr.png";
                 FotoDado2 = "interr.png";
+                haComprobado = true;
 
             }
-            else
+            else if (puedeTirar && !haComprobado)
             {
                 FotoDado1 = "dado" + valorDado1 + ".png";
                 FotoDado2 = "dado" + valorDado2 + ".png";
@@ -147,39 +165,41 @@ namespace Kiriki.ViewModel
 
         }
 
-        public void TirarCommandExecute()
+        public async void TirarCommandExecute()
         {
             if (comprobarMentira)
             {
-                Vidas++;
+                Vidas--;
                 TextoBoton = "Mostrar dados";
                 TextoBoton2 = "Tirar";
                 comprobarMentira = false;
                 FotoDado1 = "interr.png";
                 FotoDado2 = "interr.png";
+                haComprobado = true;
             }
-            else if (haTirado)
+            else if (!puedeTirar)
             {
-                TextoBoton2 = "Pasar turno";
-                haTirado = true;
-
+                TextoBoton2 = "Tirar";
+                await conexion.InvokeAsync("PasarTurno");
 
             }
             else
             {
-                haTirado = true;
+                TextoBoton2 = "Pasar turno";
+                PuedeTirar = false;
                 Random rnd = new Random();
                 valorDado1 = rnd.Next(1, 6);
                 valorDado2 = rnd.Next(1, 6);
-                FotoDado1 = "interr.png";
-                FotoDado2 = "interr.png";
+                FotoDado1 = "dado" + valorDado1 + ".png";
+                FotoDado2 = "dado" + valorDado2 + ".png";
                 miente.RaiseCanExecuteChanged();
+                await conexion.InvokeAsync("Tirar", ValorDado1, ValorDado2 );
             }
         }
 
         private bool MienteCommandCanExecute()
         {
-            if (valorDado1 != 0 && valorDado2 != 0)
+            if (valorDado1 != 0 && valorDado2 != 0 && puedeTirar)
                 return true;
             else
                 return false;
@@ -192,19 +212,27 @@ namespace Kiriki.ViewModel
             await conexion.StartAsync();
         }
 
-        private void CalcularVida(int obj)
+ 
+        private void CalcularVida()
         {
-            throw new NotImplementedException();
+            Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
+            {
+                Vidas--;
+            });
         }
 
-        private void PasarTurno(bool obj)
+        private void PasarTurno()
         {
-            throw new NotImplementedException();
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                PuedeTirar = true;
+            });
         }
 
-        private void MostrarDado(int arg1, int arg2)
+        private void TirarDado(int dado1, int dado2)
         {
-            throw new NotImplementedException();
+            ValorDado1 = dado1;
+            ValorDado2 = dado2;
         }
         #endregion
     }

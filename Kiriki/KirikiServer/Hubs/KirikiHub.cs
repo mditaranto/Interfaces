@@ -4,19 +4,19 @@ namespace KirikiServer.Hubs
 {
     public class KirikiHub : Hub
     {
-        public async Task MostrarDado(String dado1, String dado2)
+        public async Task Tirar(int dado1, int dado2)
         {
-            await Clients.All.SendAsync("MostrarDado", dado1, dado2);
+            await Clients.All.SendAsync("Tirar", dado1, dado2);
         } 
 
-        public async Task PasarTurno(String turno, bool tuTurno)
+        public async Task PasarTurno()
         {
-            await Clients.All.SendAsync("PasarTurno", turno);
+            await Clients.All.SendAsync("PasarTurno");
         }
 
-        public async Task CalcularVida(int vida)
+        public async Task CalcularVida()
         {
-            await Clients.All.SendAsync("CalcularVida", vida);
+            await Clients.All.SendAsync("CalcularVida");
         }
 
     }
