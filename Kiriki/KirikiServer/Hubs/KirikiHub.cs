@@ -9,14 +9,23 @@ namespace KirikiServer.Hubs
             await Clients.All.SendAsync("Tirar", dado1, dado2);
         } 
 
-        public void PasarTurno()
+        public async Task PasarTurno()
         {
             Clients.Others.SendAsync("PasarTurno");
         }
 
-        public async Task CalcularVida()
+        public void CalcularVida()
         {
-            await Clients.All.SendAsync("CalcularVida");
+            Clients.Others.SendAsync("CalcularVida");
+        }
+
+        public async Task asignarTurno()
+        {
+            GameInfo.numJugadores += 1;
+            if (GameInfo.numJugadores <= 1)
+            {
+                Clients.Caller.SendAsync("PasarTurno");
+            }
         }
 
     }

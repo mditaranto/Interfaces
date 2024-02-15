@@ -34,11 +34,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.Resources.Styles.St
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/Views/Kiriki.xaml]
+[C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/Views/KirikiPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.Views.Kiriki.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Kiriki.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Kiriki.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kiriki.Views.KirikiPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\KirikiPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\KirikiPage.xaml
 
 [C:/Users/mditaranto/Desktop/Curso/Interfaces/Kiriki/Kiriki/Views/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

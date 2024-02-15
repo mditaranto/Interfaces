@@ -30,6 +30,7 @@ namespace Kiriki.ViewModel
 
         private DelegateCommand miente;
         private DelegateCommand tirar;
+        private DelegateCommand pasarTurno;
         #endregion
 
         #region propiedades publicas
@@ -103,6 +104,11 @@ namespace Kiriki.ViewModel
         {
             get { return jugador; }
         }
+
+        public DelegateCommand PasarTurno
+        {
+            get { return pasarTurno; }
+        }
         #endregion
 
         #region constructores
@@ -111,13 +117,14 @@ namespace Kiriki.ViewModel
             jugador = new Player(usuario);
             conexion = new HubConnectionBuilder().WithUrl("http://localhost:5196/KirikiHub").Build();
             miente = new DelegateCommand(MienteCommandExecute, MienteCommandCanExecute);
-            tirar = new DelegateCommand(TirarCommandExecute);
+            pasarTurno = new DelegateCommand(PasarTurnoCommandExecute, PasarTurnoCommandCanExecute);
+            tirar = new DelegateCommand(TirarCommandExecute, TirarCommandCanExecute);
             textoBoton = "Mostrar dados";
             textoBoton2 = "Tirar";
             fotoDado1 = "interr.png";
             fotoDado2 = "interr.png";
             conexion.On<int, int>("Tirar", TirarDado);
-            conexion.On("PasarTurno", PasarTurno);
+            conexion.On("PasarTurno", NuevoTurno);
             conexion.On("CalcularVida", CalcularVida);
             IniciarConexion();
 
@@ -150,6 +157,26 @@ namespace Kiriki.ViewModel
 
         }
 
+
+        private bool PasarTurnoCommandCanExecute()
+        {
+            if (!jugador.PuedeTirar)
+                return true;
+            else
+                return false;
+        }
+
+        private async void PasarTurnoCommandExecute()
+        {
+            await conexion.InvokeAsync("PasarTurno");
+            TextoBoton2 = "Tirar";
+            FotoDado1 = "interr.png";
+            FotoDado2 = "interr.png";
+            tirar.RaiseCanExecuteChanged();
+            miente.RaiseCanExecuteChanged();
+            haComprobado = false;
+        }
+
         public async void TirarCommandExecute()
         {
             if (comprobarMentira)
@@ -162,15 +189,8 @@ namespace Kiriki.ViewModel
                 FotoDado2 = "interr.png";
                 haComprobado = true;
             }
-            else if (!jugador.PuedeTirar)
-            {
-                TextoBoton2 = "Tirar";
-                await conexion.InvokeAsync("PasarTurno");
-
-            }
             else
             {
-                TextoBoton2 = "Pasar turno";
                 jugador.PuedeTirar = false;
                 Random rnd = new Random();
                 valorDado1 = rnd.Next(1, 6);
@@ -178,13 +198,22 @@ namespace Kiriki.ViewModel
                 FotoDado1 = "dado" + valorDado1 + ".png";
                 FotoDado2 = "dado" + valorDado2 + ".png";
                 miente.RaiseCanExecuteChanged();
+                pasarTurno.RaiseCanExecuteChanged();
                 await conexion.InvokeAsync("Tirar", ValorDado1, ValorDado2 );
             }
         }
 
+        private bool TirarCommandCanExecute()
+        {
+            if (jugador.PuedeTirar)
+                return true;
+            else
+                return false;
+        }
+
         private bool MienteCommandCanExecute()
         {
-            if (valorDado1 != 0 && valorDado2 != 0 && jugador.PuedeTirar)
+            if (jugador.PuedeTirar)
                 return true;
             else
                 return false;
@@ -195,6 +224,7 @@ namespace Kiriki.ViewModel
         private async void IniciarConexion()
         {
             await conexion.StartAsync();
+            conexion.InvokeAsync("asignarTurno");
         }
 
  
@@ -206,12 +236,15 @@ namespace Kiriki.ViewModel
             });
         }
 
-        private void PasarTurno()
+        private void NuevoTurno()
         {
             Device.BeginInvokeOnMainThread(() =>
             {
                 jugador.PuedeTirar = true;
                 NotifyPropertyChanged("PuedeTirar");
+                tirar.RaiseCanExecuteChanged();
+                miente.RaiseCanExecuteChanged();
+                pasarTurno.RaiseCanExecuteChanged();
             });
         }
 

@@ -1,9 +1,6 @@
 ﻿using Kiriki.ViewModel.Sources;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Kiriki.Views;
+
 
 namespace Kiriki.ViewModel
 {
@@ -14,12 +11,33 @@ namespace Kiriki.ViewModel
 
         public LoginVM()
         {
-            loginCommand = new DelegateCommand(loginCanExecute());
+            loginCommand = new DelegateCommand(loginExecuteAsync, loginCanExecute);
         }
 
-        private Action loginCanExecute()
+        public string Usuario
         {
-            
+            set { usuario = value; NotifyPropertyChanged("Usuario"); loginCommand.RaiseCanExecuteChanged(); }
+            get { return usuario; }
         }
+
+        public DelegateCommand LoginCommand
+        { get { return loginCommand; } }
+
+        private bool loginCanExecute()
+        {
+            if (usuario != null)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
+        }
+
+        private async void loginExecuteAsync()
+        {
+            await Shell.Current.Navigation.PushAsync(new KirikiPage(usuario));
+        }
+
     }
 }

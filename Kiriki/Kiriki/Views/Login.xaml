@@ -2,11 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Kiriki.Views.Login"
-             Title="Login">
+             Title="Login"
+             xmlns:VM="clr-namespace:Kiriki.ViewModel">
+
+    <ContentPage.BindingContext>
+        <VM:LoginVM></VM:LoginVM>
+    </ContentPage.BindingContext>
+    
     <VerticalStackLayout>
         <Entry 
-            Text=""
+            Text="{Binding Usuario}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button
+            Command="{Binding LoginCommand}"
+            Text="Entrar"/>
     </VerticalStackLayout>
 </ContentPage>
