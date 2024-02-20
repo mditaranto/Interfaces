@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PsECX221gp23cPMBtuzJX1TOoGXziPoQf0qEGdz2CXVNiEsOyuQ1D9rxzfIal+Q4+4h9PUXop8bKq8pG4jRLTQ==",
+  "dgSpecHash": "fhBMN9bpmBqtJDovh2l+CDIUxs0NVIMRcfWDDBwC2zVK435eBxmzNJAtfqVdF7bA7MG/zllr3z1zei4xzfwt5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj",
+  "projectFilePath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mditaranto\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\mditaranto\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.0\\microsoft.aspnetcore.connections.abstractions.7.0.0.nupkg.sha512",

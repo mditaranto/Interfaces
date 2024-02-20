@@ -28,5 +28,14 @@ namespace KirikiServer.Hubs
             }
         }
 
+        public async Task terminarJuego()
+        {
+            GameInfo.numJugadores = 0;
+            if (GameInfo.numJugadores <= 0)
+            {
+                Clients.All.SendAsync("terminarJuego");
+            }
+        }
+
     }
 }

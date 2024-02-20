@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-08</Machine>
+    <Machine>107-16</Machine>
     <WindowsUser>mditaranto</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e2ce298c-478f-406f-8247-ab25116eb3cf</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>9DEDE7B642EB58650779CCFADE6D2A2ED7375429F7D3CD63CB435D37726262BF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e2ce298c-478f-406f-8247-ab25116eb3cf_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e2ce298c-478f-406f-8247-ab25116eb3cf_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,32 +26,32 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-15T12:10:57.944</Modified>
+      <Modified>2024-02-20T13:08:05.478</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-15T12:10:57.737</Modified>
+      <Modified>2024-02-20T13:08:05.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Kiriki.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Kiriki.runtimeconfig.json">
       <PackagePath>Kiriki.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-09T08:19:10.099</Modified>
+      <Modified>2024-02-20T12:55:15.580</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Kiriki.dll">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Kiriki.dll">
       <PackagePath>Kiriki.dll</PackagePath>
-      <Modified>2024-02-15T12:10:56.967</Modified>
+      <Modified>2024-02-20T13:08:04.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Kiriki.exe</PackagePath>
-      <Modified>2024-02-15T12:10:56.973</Modified>
+      <Modified>2024-02-20T13:08:04.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Kiriki.deps.json">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Kiriki.deps.json">
       <PackagePath>Kiriki.deps.json</PackagePath>
-      <Modified>2024-02-15T09:24:45.166</Modified>
+      <Modified>2024-02-20T12:55:15.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mditaranto\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -969,269 +969,269 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-06-30T14:50:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-01-30T12:45:53.262</Modified>
+      <Modified>2024-02-01T10:51:56.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-01-30T12:46:06.417</Modified>
+      <Modified>2024-02-01T10:51:57.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-01-30T12:46:06.436</Modified>
+      <Modified>2024-02-01T10:51:57.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-01-30T12:46:06.455</Modified>
+      <Modified>2024-02-01T10:51:57.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-01-30T12:46:06.484</Modified>
+      <Modified>2024-02-01T10:51:57.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-01-30T12:46:06.594</Modified>
+      <Modified>2024-02-01T10:51:57.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-01-30T12:45:53.259</Modified>
+      <Modified>2024-02-01T10:51:57.098</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-01-30T12:45:53.260</Modified>
+      <Modified>2024-02-01T10:51:57.098</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-02-07T08:25:37.259</Modified>
+      <Modified>2024-02-02T08:57:36.653</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.504</Modified>
+      <Modified>2024-02-02T08:57:36.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.514</Modified>
+      <Modified>2024-02-02T08:57:36.866</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.530</Modified>
+      <Modified>2024-02-02T08:57:36.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.546</Modified>
+      <Modified>2024-02-02T08:57:36.890</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.614</Modified>
+      <Modified>2024-02-02T08:57:36.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.334</Modified>
+      <Modified>2024-02-02T08:57:36.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.336</Modified>
+      <Modified>2024-02-02T08:57:36.712</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.347</Modified>
+      <Modified>2024-02-02T08:57:36.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.339</Modified>
+      <Modified>2024-02-02T08:57:36.714</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.341</Modified>
+      <Modified>2024-02-02T08:57:36.716</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.315</Modified>
+      <Modified>2024-02-02T08:57:36.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.317</Modified>
+      <Modified>2024-02-02T08:57:36.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.331</Modified>
+      <Modified>2024-02-02T08:57:36.708</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.320</Modified>
+      <Modified>2024-02-02T08:57:36.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.323</Modified>
+      <Modified>2024-02-02T08:57:36.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.276</Modified>
+      <Modified>2024-02-02T08:57:36.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.280</Modified>
+      <Modified>2024-02-02T08:57:36.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.283</Modified>
+      <Modified>2024-02-02T08:57:36.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.287</Modified>
+      <Modified>2024-02-02T08:57:36.675</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.292</Modified>
+      <Modified>2024-02-02T08:57:36.679</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.296</Modified>
+      <Modified>2024-02-02T08:57:36.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.299</Modified>
+      <Modified>2024-02-02T08:57:36.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.313</Modified>
+      <Modified>2024-02-02T08:57:36.694</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.302</Modified>
+      <Modified>2024-02-02T08:57:36.685</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.304</Modified>
+      <Modified>2024-02-02T08:57:36.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.389</Modified>
+      <Modified>2024-02-02T08:57:36.758</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.393</Modified>
+      <Modified>2024-02-02T08:57:36.762</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.399</Modified>
+      <Modified>2024-02-02T08:57:36.767</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.406</Modified>
+      <Modified>2024-02-02T08:57:36.774</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.421</Modified>
+      <Modified>2024-02-02T08:57:36.789</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.365</Modified>
+      <Modified>2024-02-02T08:57:36.739</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.368</Modified>
+      <Modified>2024-02-02T08:57:36.742</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.372</Modified>
+      <Modified>2024-02-02T08:57:36.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.377</Modified>
+      <Modified>2024-02-02T08:57:36.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.385</Modified>
+      <Modified>2024-02-02T08:57:36.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.350</Modified>
+      <Modified>2024-02-02T08:57:36.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.352</Modified>
+      <Modified>2024-02-02T08:57:36.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.355</Modified>
+      <Modified>2024-02-02T08:57:36.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.358</Modified>
+      <Modified>2024-02-02T08:57:36.732</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.363</Modified>
+      <Modified>2024-02-02T08:57:36.737</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.426</Modified>
+      <Modified>2024-02-02T08:57:36.794</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.432</Modified>
+      <Modified>2024-02-02T08:57:36.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.441</Modified>
+      <Modified>2024-02-02T08:57:36.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.460</Modified>
+      <Modified>2024-02-02T08:57:36.819</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.495</Modified>
+      <Modified>2024-02-02T08:57:36.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado1.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado1.scale-100.png">
       <PackagePath>dado1.scale-100.png</PackagePath>
-      <Modified>2024-02-06T12:21:11.923</Modified>
+      <Modified>2024-02-02T08:53:41.740</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado2.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado2.scale-100.png">
       <PackagePath>dado2.scale-100.png</PackagePath>
-      <Modified>2024-02-06T12:21:11.925</Modified>
+      <Modified>2024-02-02T08:52:53.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado3.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado3.scale-100.png">
       <PackagePath>dado3.scale-100.png</PackagePath>
-      <Modified>2024-02-06T12:21:11.928</Modified>
+      <Modified>2024-02-02T08:52:22.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado4.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado4.scale-100.png">
       <PackagePath>dado4.scale-100.png</PackagePath>
-      <Modified>2024-02-06T12:21:11.931</Modified>
+      <Modified>2024-02-02T08:52:14.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado5.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado5.scale-100.png">
       <PackagePath>dado5.scale-100.png</PackagePath>
-      <Modified>2024-02-06T12:21:11.933</Modified>
+      <Modified>2024-02-02T08:53:27.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado6.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado6.scale-100.png">
       <PackagePath>dado6.scale-100.png</PackagePath>
-      <Modified>2024-02-06T12:21:11.936</Modified>
+      <Modified>2024-02-02T08:51:55.986</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.247</Modified>
+      <Modified>2024-02-02T08:57:36.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.257</Modified>
+      <Modified>2024-02-02T08:57:36.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.273</Modified>
+      <Modified>2024-02-02T08:57:36.652</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.292</Modified>
+      <Modified>2024-02-02T08:57:36.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-07T08:25:37.339</Modified>
+      <Modified>2024-02-02T08:57:36.712</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\interr.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\interr.scale-100.png">
       <PackagePath>interr.scale-100.png</PackagePath>
-      <Modified>2024-02-06T12:21:11.936</Modified>
+      <Modified>2024-02-02T08:57:13.379</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

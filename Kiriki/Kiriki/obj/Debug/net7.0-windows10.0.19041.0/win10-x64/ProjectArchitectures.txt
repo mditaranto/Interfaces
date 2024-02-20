@@ -1,1 +1,1 @@
-C:\Users\mditaranto\Desktop\Curso\Interfaces\Kiriki\Kiriki\Kiriki.csproj;x64
+C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\Kiriki.csproj;x64

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj": {}
+    "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj": {
+    "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj",
+        "projectUniqueName": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj",
         "projectName": "Kiriki",
-        "projectPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj",
+        "projectPath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Kiriki\\Kiriki\\Kiriki.csproj",
         "packagesPath": "C:\\Users\\mditaranto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mditaranto\\Desktop\\Curso\\Interfaces\\Kiriki\\Kiriki\\obj\\",
+        "outputPath": "C:\\Users\\mditaranto\\Desktop\\DAM\\Interfaces\\Kiriki\\Kiriki\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

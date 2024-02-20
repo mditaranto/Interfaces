@@ -1,6 +1,7 @@
 ﻿
 using Kiriki.Models;
 using Kiriki.ViewModel.Sources;
+using Kiriki.Views;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
@@ -126,6 +127,7 @@ namespace Kiriki.ViewModel
             conexion.On<int, int>("Tirar", TirarDado);
             conexion.On("PasarTurno", NuevoTurno);
             conexion.On("CalcularVida", CalcularVida);
+            conexion.On("terminarJuego", terminarJuego);
             IniciarConexion();
 
         }
@@ -227,12 +229,20 @@ namespace Kiriki.ViewModel
             conexion.InvokeAsync("asignarTurno");
         }
 
+        private async void terminarJuego()
+        {
+            await Shell.Current.Navigation.PopAsync();
+        }
  
         private void CalcularVida()
         {
             Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
             {
                 jugador.Vidas--;
+                if (jugador.Vidas == 0)
+                {
+                    conexion.InvokeAsync("terminarJuego");
+                }
             });
         }
 
