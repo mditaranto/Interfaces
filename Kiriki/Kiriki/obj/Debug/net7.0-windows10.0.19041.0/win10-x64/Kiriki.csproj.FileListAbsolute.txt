@@ -1010,3 +1010,12 @@ C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-window
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Features.dll
 C:\Users\mditaranto\Desktop\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.IO.Pipelines.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Http.Connections.Client.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Client.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Client.Core.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Common.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Features.dll
+E:\DAM\Interfaces\Kiriki\Kiriki\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.IO.Pipelines.dll

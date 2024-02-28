@@ -22,3 +22,16 @@ D:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.dll
 D:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\refint\Clases.dll
 D:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.pdb
 D:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\ref\Clases.dll
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\bin\Debug\net7.0\Clases.deps.json
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\bin\Debug\net7.0\Clases.dll
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\bin\Debug\net7.0\Clases.pdb
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.csproj.AssemblyReference.cache
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.GeneratedMSBuildEditorConfig.editorconfig
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.AssemblyInfoInputs.cache
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.AssemblyInfo.cs
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.csproj.CoreCompileInputs.cache
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.sourcelink.json
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.dll
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\refint\Clases.dll
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\Clases.pdb
+E:\DAM\Interfaces\Tema7\U7E1_Pages\Clases\obj\Debug\net7.0\ref\Clases.dll

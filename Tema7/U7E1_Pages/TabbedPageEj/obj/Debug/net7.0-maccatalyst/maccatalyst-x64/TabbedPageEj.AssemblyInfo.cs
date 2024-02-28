@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TabbedPageEj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c030330b979cb9612fe38da5f6d57328d626744a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TabbedPageEj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TabbedPageEj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TabbedPageEj.MainPage">
+             x:Class="TabbedPageEj.MainPage"
+             Shell.NavBarIsVisible="False">
 
     <ScrollView>
         <VerticalStackLayout>
@@ -22,6 +23,12 @@
                 x:Name="Apellidos"
                 WidthRequest="60"
                 HeightRequest="150"/>
+
+            <Image
+                x:Name="Imagen"
+                Source="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                WidthRequest="100"
+                HeightRequest="100"/>
 
             <Button
                 x:Name="Page4"
