@@ -127,7 +127,7 @@ namespace Kiriki.ViewModel
             conexion.On<int, int>("Tirar", TirarDado);
             conexion.On("PasarTurno", NuevoTurno);
             conexion.On("CalcularVida", CalcularVida);
-            conexion.On("terminarJuego", terminarJuego);
+            conexion.On<string>("terminarJuego", terminarJuego);
             IniciarConexion();
 
         }
@@ -229,9 +229,21 @@ namespace Kiriki.ViewModel
             conexion.InvokeAsync("asignarTurno");
         }
 
-        private async void terminarJuego()
+        private async void terminarJuego(string perdedor)
         {
-            await Shell.Current.Navigation.PopAsync();
+            Device.BeginInvokeOnMainThread(async () => //para que se ejecute en el hilo principal y no explote
+            {
+                //Alert para mostrar que ha terminado el juego
+                bool answer = await App.Current.MainPage.DisplayAlert("Ha perdido el jugador" + perdedor, "¿Quieres la revancha?", "Yes", "No");
+                if (answer)
+                {
+                
+                }
+                else
+                {
+                    await Shell.Current.Navigation.PopAsync();
+                }
+            });
         }
  
         private void CalcularVida()
@@ -239,10 +251,7 @@ namespace Kiriki.ViewModel
             Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
             {
                 jugador.Vidas--;
-                if (jugador.Vidas == 0)
-                {
-                    conexion.InvokeAsync("terminarJuego");
-                }
+                comprobarVida();
             });
         }
 
@@ -262,6 +271,14 @@ namespace Kiriki.ViewModel
         {
             ValorDado1 = dado1;
             ValorDado2 = dado2;
+        }
+
+        private void comprobarVida()
+        {
+            if (jugador.Vidas <= 0)
+            {
+                conexion.InvokeAsync("terminarJuego", jugador.Usuario);
+            }
         }
         #endregion
     }

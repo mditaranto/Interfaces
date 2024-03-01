@@ -16,6 +16,7 @@ namespace Kiriki.Models
         {
             vidas = 3;
             puedeTirar = false;
+            this.usuario = usuario;
         }
 
         public int Vidas { get { return vidas; } set { vidas = value; } }

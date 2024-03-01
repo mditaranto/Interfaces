@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kiriki.Views.Salas"
+             Title="Salas"
+             xmlns:VM="clr-namespace:Kiriki.ViewModel">
+
+    <ContentPage.BindingContext>
+        <VM:SalasVM />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Listado en la parte superior -->
+            <ListView Grid.Row="0" x:Name="miListView" ItemsSource="{Binding Salas}" SelectedItem="{Binding SalaSeleccionada}">
+                <!-- Define tu ItemTemplate aquí -->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame CornerRadius="10" Margin="5" Padding="10" BackgroundColor="LightGray">
+                                <StackLayout>
+                                    <!-- Agrega aquí los elementos que desees dentro de la tarjeta -->
+                                    <Label Text="{Binding Nombre}" FontSize="Large" FontAttributes="Bold" />
+                                    <Label Text="{Binding NumJugadores}" FontSize="Medium" />
+                                    <!-- Otros elementos -->
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <!-- Botones en la parte inferior -->
+            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Botón 1" Clicked="OnBoton1Clicked" />
+                <Button Text="Botón 2" Clicked="OnBoton2Clicked" />
+            </StackLayout>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
