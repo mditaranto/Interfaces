@@ -37,8 +37,8 @@
 
             <!-- Botones en la parte inferior -->
             <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center">
-                <Button Text="Botón 1" Clicked="OnBoton1Clicked" />
-                <Button Text="Botón 2" Clicked="OnBoton2Clicked" />
+                <Button Text="Crear sala" Command="{Binding CrearSalaCommand}" />
+                <Button Text="Unirse" Command="{Binding UnirseSalaCommand}" />
             </StackLayout>
         </Grid>
     </VerticalStackLayout>

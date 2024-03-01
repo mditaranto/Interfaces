@@ -53,6 +53,11 @@ namespace KirikiServer.Hubs
 
         }
 
+        public async Task rellenarSalas()
+        {
+            await Clients.Caller.SendAsync("rellenarSalas", GameInfo.salas);
+        }
+
         #endregion
 
     }

@@ -1,5 +1,6 @@
 ﻿using Kiriki.Models;
 using Kiriki.ViewModel.Sources;
+using Kiriki.Views;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,6 @@ namespace Kiriki.ViewModel
         private DelegateCommand salirSalaCommand;
         private List<clsSala> salas;
         private clsSala salaSeleccionada;
-        //private DelegateCommand verSalasCommand;
 
         public SalasVM()
         {
@@ -28,17 +28,38 @@ namespace Kiriki.ViewModel
             salirSalaCommand = new DelegateCommand(salirSalaExecute, salirSalaCanExecute);
             salas = new List<clsSala>();
             conexion.On<string>("CrearSala", añadirSala);
+            conexion.On<string>("SalaUnida", quitarSala);
+            conexion.On<List<string>>("rellenarSalas", rellenarSalas);
+            IniciarConexion();
+        }
+
+        private async void IniciarConexion()
+        {
+            await conexion.StartAsync();
+            conexion.InvokeAsync("rellenarSala");
+        }
+
+        private void quitarSala(string sala)
+        {
+
+            Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
+            {
+                salas.Remove(salas.Find(x => x.Nombre == sala));
+            });
         }
 
         private void añadirSala(string sala)
         {
-            salas.Add(new clsSala(sala));
-            NotifyPropertyChanged("Salas");
+            Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
+            {
+                salas.Add(new clsSala(sala));
+                NotifyPropertyChanged("Salas");
+            });
         }
 
-        public void rellenarSalas()
+        public void rellenarSalas(List<string> salas)
         {
-            //Rellena salas del servidor
+            salas = salas.ToList();
             NotifyPropertyChanged("Salas");
         }
 
@@ -71,17 +92,21 @@ namespace Kiriki.ViewModel
 
         private void crearSalaExecute()
         {
-            throw new NotImplementedException();
+            
         }
 
         private bool unirseSalaCanExecute()
         {
-            return true;
+            if (salaSeleccionada != null)
+            {
+                return true;
+            } else { return false; }
         }
 
-        private void unirseSalaExecute()
+        private async void unirseSalaExecute()
         {
-            throw new NotImplementedException();
+            conexion.InvokeAsync("UnirseSala");
+            await Shell.Current.Navigation.PushAsync(new KirikiPage());
         }
 
         private bool salirSalaCanExecute()

@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Kiriki.Views.KirikiPage"
              Title="KirikiPage"
+             Shell.NavBarIsVisible="False"
              xmlns:VM="clr-namespace:Kiriki.ViewModel">
 
     <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
@@ -14,7 +15,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <!-- Contenido para la primera fila -->
+        <!-- Contenido para la primera fila -->  
         <Label Grid.Row="0" Text="{Binding Vidas}" HorizontalOptions="Center" VerticalOptions="Center" />
 
         <!-- Contenido para la segunda fila -->
