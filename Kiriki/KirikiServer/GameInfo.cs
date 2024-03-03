@@ -1,9 +1,12 @@
 ﻿namespace KirikiServer
 {
+    /// <summary>
+    /// Clase que contiene la informacion del juego
+    /// </summary>
     static class GameInfo
     {
-        public static int numJugadores;
-        public static List<String> salas = new List<String>(); 
+        // Lista de salas
+        public static List<clsSalaServer> salas = new List<clsSalaServer>(); 
 
         static GameInfo()
         {

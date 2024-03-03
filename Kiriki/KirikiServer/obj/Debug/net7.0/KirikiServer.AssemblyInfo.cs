@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KirikiServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e32027715cf599391d0b463e694c062a0e3fc6a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("KirikiServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KirikiServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

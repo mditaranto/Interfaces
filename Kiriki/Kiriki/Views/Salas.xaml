@@ -3,30 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Kiriki.Views.Salas"
              Title="Salas"
-             xmlns:VM="clr-namespace:Kiriki.ViewModel">
+             xmlns:VM="clr-namespace:Kiriki.ViewModel"
+             Shell.NavBarIsVisible="False">
 
-    <ContentPage.BindingContext>
-        <VM:SalasVM />
-    </ContentPage.BindingContext>
+    <ContentPage.BackgroundImageSource>
+        <FileImageSource File="fondo.jpg"/>
+    </ContentPage.BackgroundImageSource>
 
-    <VerticalStackLayout>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
             <!-- Listado en la parte superior -->
-            <ListView Grid.Row="0" x:Name="miListView" ItemsSource="{Binding Salas}" SelectedItem="{Binding SalaSeleccionada}">
+            <ListView x:Name="miListView" ItemsSource="{Binding Salas}" SelectedItem="{Binding SalaSeleccionada}">
                 <!-- Define tu ItemTemplate aquí -->
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame CornerRadius="10" Margin="5" Padding="10" BackgroundColor="LightGray">
-                                <StackLayout>
-                                    <!-- Agrega aquí los elementos que desees dentro de la tarjeta -->
-                                    <Label Text="{Binding Nombre}" FontSize="Large" FontAttributes="Bold" />
-                                    <Label Text="{Binding NumJugadores}" FontSize="Medium" />
+                            <Frame CornerRadius="10" Margin="5" Padding="10" BackgroundColor="White" Opacity="0.8">
+                                <StackLayout VerticalOptions="Center">
+                                    <!-- El texto se centrará horizontalmente -->
+                                    <Label Text="{Binding Nombre}" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+                                    <!--<Label Text="{Binding NumJugadores}" FontSize="Medium" />-->
                                     <!-- Otros elementos -->
                                 </StackLayout>
                             </Frame>
@@ -34,12 +36,14 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+        </ScrollView>
 
-            <!-- Botones en la parte inferior -->
-            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center">
-                <Button Text="Crear sala" Command="{Binding CrearSalaCommand}" />
-                <Button Text="Unirse" Command="{Binding UnirseSalaCommand}" />
-            </StackLayout>
-        </Grid>
-    </VerticalStackLayout>
+        <!-- Botones en la parte inferior -->
+        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="End" Spacing="20">
+            <!-- Separación entre botones -->
+            <Button Text="Crear sala" Command="{Binding CrearSalaCommand}" Margin="5, 20" BackgroundColor="#4D904D" TextColor="Black" />
+            <Button Text="Unirse" Command="{Binding UnirseSalaCommand}" Margin="5, 20" TextColor="Black" />
+        </StackLayout>
+    </Grid>
+
 </ContentPage>

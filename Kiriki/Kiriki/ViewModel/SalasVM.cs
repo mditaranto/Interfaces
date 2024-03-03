@@ -4,74 +4,55 @@ using Kiriki.Views;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Kiriki.ViewModel
 {
+    /// <summary>
+    /// Clase que representa el ViewModel de la pagina de salas
+    /// </summary>
     public class SalasVM : clsVMBase
     {
-
+        #region propiedades privadas
         private readonly HubConnection conexion;
         private DelegateCommand crearSalaCommand;
         private DelegateCommand unirseSalaCommand;
-        private DelegateCommand salirSalaCommand;
-        private List<clsSala> salas;
+        private ObservableCollection<clsSala> salas;
+        private string usuario;
         private clsSala salaSeleccionada;
+        #endregion
 
-        public SalasVM()
+        #region constructores
+        public SalasVM(string usuario)
         {
-            conexion = new HubConnectionBuilder().WithUrl("http://localhost:5196/KirikiHub").Build();
-            crearSalaCommand = new DelegateCommand(crearSalaExecute, crearSalaCanExecute);
+            //Se conecta al servidor
+            conexion = new HubConnectionBuilder().WithUrl("https://kirikiserver.azurewebsites.net/kirikiHub").Build();
+            crearSalaCommand = new DelegateCommand(crearSalaExecute); 
             unirseSalaCommand = new DelegateCommand(unirseSalaExecute, unirseSalaCanExecute);
-            salirSalaCommand = new DelegateCommand(salirSalaExecute, salirSalaCanExecute);
-            salas = new List<clsSala>();
-            conexion.On<string>("CrearSala", añadirSala);
-            conexion.On<string>("SalaUnida", quitarSala);
+            // Coge el usuario del login
+            this.usuario = usuario;
+            salas = new ObservableCollection<clsSala>();
+            conexion.On<List<string>>("SalaCreada", rellenarSalas);
+            conexion.On<List<string>>("SalaUnida", rellenarSalas);
             conexion.On<List<string>>("rellenarSalas", rellenarSalas);
             IniciarConexion();
         }
+        #endregion
 
-        private async void IniciarConexion()
-        {
-            await conexion.StartAsync();
-            conexion.InvokeAsync("rellenarSala");
-        }
-
-        private void quitarSala(string sala)
-        {
-
-            Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
-            {
-                salas.Remove(salas.Find(x => x.Nombre == sala));
-            });
-        }
-
-        private void añadirSala(string sala)
-        {
-            Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
-            {
-                salas.Add(new clsSala(sala));
-                NotifyPropertyChanged("Salas");
-            });
-        }
-
-        public void rellenarSalas(List<string> salas)
-        {
-            salas = salas.ToList();
-            NotifyPropertyChanged("Salas");
-        }
-
+        #region propiedades publicas
         public clsSala SalaSeleccionada
         {
             get { return salaSeleccionada; }
-            set { salaSeleccionada = value; NotifyPropertyChanged("SalaSeleccionada"); }
+            set { salaSeleccionada = value; NotifyPropertyChanged("SalaSeleccionada"); unirseSalaCommand.RaiseCanExecuteChanged(); }
         }
 
-        public List<clsSala> Salas
+        public ObservableCollection<clsSala> Salas
         {
             get { return salas; }
+            set { salas = value; NotifyPropertyChanged("Salas"); }
         }
 
         public DelegateCommand CrearSalaCommand
@@ -79,45 +60,66 @@ namespace Kiriki.ViewModel
 
         public DelegateCommand UnirseSalaCommand
         { get { return unirseSalaCommand; } }
+        #endregion
 
-        public DelegateCommand SalirSalaCommand
-        { get { return salirSalaCommand; } }
-       /* public DelegateCommand VerSalasCommand
-        { get { return verSalasCommand; } }*/
-
-        private bool crearSalaCanExecute()
+        #region metodos
+        /// <summary>
+        /// Al iniciar la conexion, se conecta al servidor y rellena las salas
+        /// </summary>
+        private async void IniciarConexion()
         {
-            return true;
+            await conexion.StartAsync();
+            conexion.InvokeAsync("rellenarSalas");
         }
 
-        private void crearSalaExecute()
+        /// <summary>
+        /// Funcion que rellena las salas, se ejecuta al iniciar, al crear una sala y al unirse a una sala
+        /// </summary>
+        /// <param name="salas"></param>
+        public void rellenarSalas(List<string> salas)
         {
-            
+            ObservableCollection<clsSala> salasLista = new ObservableCollection<clsSala>();
+            foreach (string sala in salas)
+            {
+                salasLista.Add(new clsSala(sala));
+            }
+            this.salas = salasLista;
+            NotifyPropertyChanged("Salas");
+        }
+        #endregion
+
+        #region comandos
+        /// <summary>
+        /// Funcion que crea una sala
+        /// </summary>
+        private async void crearSalaExecute()
+        {
+            conexion.InvokeAsync("CrearSala", usuario);
+            await Shell.Current.Navigation.PushAsync(new KirikiPage(usuario, new clsSala(usuario)));
         }
 
+        /// <summary>
+        /// Funcion que comprueba si se puede unir a una sala
+        /// </summary>
+        /// <returns></returns>
         private bool unirseSalaCanExecute()
         {
             if (salaSeleccionada != null)
             {
                 return true;
-            } else { return false; }
+            }
+            else { return false; }
         }
 
+        /// <summary>
+        /// Funcion que se encarga de unirse a una sala
+        /// </summary>
         private async void unirseSalaExecute()
         {
-            conexion.InvokeAsync("UnirseSala");
-            await Shell.Current.Navigation.PushAsync(new KirikiPage());
+            //Se navega a la pagina de juego
+            await Shell.Current.Navigation.PushAsync(new KirikiPage(usuario, salaSeleccionada));
         }
-
-        private bool salirSalaCanExecute()
-        {
-            return true;
-        }
-
-        private void salirSalaExecute()
-        {
-            throw new NotImplementedException();
-        }
+        #endregion
 
     }
 }

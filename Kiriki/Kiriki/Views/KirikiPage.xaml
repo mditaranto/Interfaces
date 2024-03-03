@@ -6,20 +6,25 @@
              Shell.NavBarIsVisible="False"
              xmlns:VM="clr-namespace:Kiriki.ViewModel">
 
+    <ContentPage.BackgroundImageSource>
+        <FileImageSource File="fondo.jpg"/>
+    </ContentPage.BackgroundImageSource>
+
     <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <!-- Contenido para la primera fila -->  
-        <Label Grid.Row="0" Text="{Binding Vidas}" HorizontalOptions="Center" VerticalOptions="Center" />
+        <!-- Contenido para la primera fila -->
+        <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Vidas restantes: " HorizontalOptions="End" VerticalOptions="Center" />
+            <Label Text="{Binding Jugador.Vidas}" HorizontalOptions="Start" VerticalOptions="Center" />
+        </StackLayout>
 
         <!-- Contenido para la segunda fila -->
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Margin="0,20,0,50">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -32,15 +37,16 @@
             <Image Grid.Column="1" Source="{Binding FotoDado2}" HorizontalOptions="Center" VerticalOptions="Center" />
         </Grid>
 
-        <!-- Contenido para la tercera fila -->
-        <Button Grid.Row="2" Text="{Binding TextoBoton}" Command="{Binding Miente}" HorizontalOptions="Center" VerticalOptions="Center" />
+        <!-- Contenido para la tercera fila (botones) -->
+        <StackLayout Grid.Row="2" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="0,50,0,0">
+            <!-- Contenido para el primer botón -->
+            <Button Text="{Binding TextoBoton}" Command="{Binding Miente}" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,10" />
 
-        <!-- Contenido para la cuarta fila -->
-        <Button Grid.Row="3" Text="{Binding TextoBoton2}" Command="{Binding Tirar}" HorizontalOptions="Center" VerticalOptions="Center" />
+            <!-- Contenido para el segundo botón -->
+            <Button Text="{Binding TextoBoton2}" Command="{Binding Tirar}" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,10" />
 
-        <Button Grid.Row="4" Text="Pasar turno" Command="{Binding PasarTurno}" HorizontalOptions="Center" VerticalOptions="Center" />
-
-
+            <!-- Contenido para el tercer botón -->
+            <Button Text="Pasar turno" Command="{Binding PasarTurno}" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,10" />
+        </StackLayout>
     </Grid>
-
 </ContentPage>

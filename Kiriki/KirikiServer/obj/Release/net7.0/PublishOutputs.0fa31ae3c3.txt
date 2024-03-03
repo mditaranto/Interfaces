@@ -1,0 +1,8 @@
+E:\DAM\Interfaces\Kiriki\KirikiServer\obj\Release\net7.0\PubTmp\Out\KirikiServer.exe
+E:\DAM\Interfaces\Kiriki\KirikiServer\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+E:\DAM\Interfaces\Kiriki\KirikiServer\obj\Release\net7.0\PubTmp\Out\appsettings.json
+E:\DAM\Interfaces\Kiriki\KirikiServer\obj\Release\net7.0\PubTmp\Out\libman.json
+E:\DAM\Interfaces\Kiriki\KirikiServer\obj\Release\net7.0\PubTmp\Out\KirikiServer.dll
+E:\DAM\Interfaces\Kiriki\KirikiServer\obj\Release\net7.0\PubTmp\Out\KirikiServer.deps.json
+E:\DAM\Interfaces\Kiriki\KirikiServer\obj\Release\net7.0\PubTmp\Out\KirikiServer.runtimeconfig.json
+E:\DAM\Interfaces\Kiriki\KirikiServer\obj\Release\net7.0\PubTmp\Out\KirikiServer.pdb

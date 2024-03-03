@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\dado1.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\dado2.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\dado3.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\dado4.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\dado5.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\dado6.png" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\fondo.jpg" />
+    <BundleResource Include="E:\DAM\Interfaces\Kiriki\Kiriki\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\interr.png" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>

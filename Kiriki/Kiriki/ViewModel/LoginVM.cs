@@ -4,6 +4,9 @@ using Kiriki.Views;
 
 namespace Kiriki.ViewModel
 {
+    /// <summary>
+    /// Clase que representa el ViewModel de la pagina de login
+    /// </summary>
     public class LoginVM : clsVMBase
     {
         private string usuario;
@@ -11,6 +14,7 @@ namespace Kiriki.ViewModel
 
         public LoginVM()
         {
+            //Boton de login
             loginCommand = new DelegateCommand(loginExecuteAsync, loginCanExecute);
         }
 
@@ -36,7 +40,8 @@ namespace Kiriki.ViewModel
 
         private async void loginExecuteAsync()
         {
-            await Shell.Current.Navigation.PushAsync(new KirikiPage(usuario));
+            // Navega a la pagina de salas
+            await Shell.Current.Navigation.PushAsync(new Salas(usuario));
         }
 
     }

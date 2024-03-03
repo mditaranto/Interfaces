@@ -3,20 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Kiriki.Views.Login"
              Title="Login"
-             xmlns:VM="clr-namespace:Kiriki.ViewModel">
+             xmlns:VM="clr-namespace:Kiriki.ViewModel"
+             Shell.NavBarIsVisible="False">
 
     <ContentPage.BindingContext>
         <VM:LoginVM></VM:LoginVM>
     </ContentPage.BindingContext>
-    
-    <VerticalStackLayout>
-        <Entry 
-            Text="{Binding Usuario}"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
 
-        <Button
-            Command="{Binding LoginCommand}"
-            Text="Entrar"/>
-    </VerticalStackLayout>
+    <ContentPage.BackgroundImageSource>
+        <FileImageSource File="fondo.jpg"/>
+    </ContentPage.BackgroundImageSource>
+
+    <ContentPage.Resources>
+
+        <Color x:Key="FrameColor">#D3D3D3</Color>
+        <!-- Color del frame -->
+
+    </ContentPage.Resources>
+
+    <Grid>
+        <Frame Grid.Row="0" CornerRadius="20" Padding="20" BackgroundColor="{StaticResource FrameColor}" Opacity="0.8"
+                   HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HeightRequest="200">
+            <StackLayout VerticalOptions="CenterAndExpand" Spacing="20">
+                <Entry Text="{Binding Usuario}" Placeholder="Nombre de usuario" HorizontalOptions="Center" WidthRequest="200"/>
+                <Button Command="{Binding LoginCommand}" Text="Entrar" HorizontalOptions="Center" />
+            </StackLayout>
+        </Frame>
+    </Grid>
 </ContentPage>
